@@ -5,7 +5,6 @@ import {
   registerUniformComponent,
 } from "@uniformdev/canvas-react";
 import NextImage from "next/image"; // Next.js optimized images
-import { imageFrom } from "@uniformdev/assets"; // Uniform asset processing
 import type { AssetParamValue } from "@uniformdev/assets";
 
 export interface ImageProps {
@@ -52,15 +51,11 @@ export const Image: React.FC<ImageProps> = ({
   const [firstAsset] = imageAssets;
   
   // Generate optimized image URL with transformations
-  const imageUrl = firstAsset
-    ? imageFrom(firstAsset)
-        .transform({ 
-          width: 800,    // Resize to 800px width
-          height: 600,   // Resize to 600px height  
-          fit: "cover",  // Smart crop to maintain aspect ratio
-          focal: firstAsset.fields?.focalPoint?.value || "center" // Use focal point or center
-        })
-        .url()
+  const focalPoint = firstAsset?.fields?.focalPoint?.value;
+  const baseUrl = firstAsset?.fields?.url?.value;
+  const focalParam = focalPoint ? `${focalPoint.x}x${focalPoint.y}` : "center";
+  const imageUrl = baseUrl 
+    ? `${baseUrl}?width=800&height=600&fit=cover&focal=${focalParam}` 
     : undefined;
 
   // Extract alt text from asset metadata (important for accessibility)

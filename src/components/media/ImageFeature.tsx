@@ -7,7 +7,6 @@ import {
 } from "@uniformdev/canvas-react";
 import { Card, CardContent } from "../ui/card"; // Consistent card styling
 import Image from "next/image"; // Next.js optimized images
-import { imageFrom } from "@uniformdev/assets"; // Uniform asset processing
 import type { AssetParamValue } from "@uniformdev/assets";
 
 export interface ImageFeatureProps {
@@ -55,15 +54,13 @@ export const ImageFeature: React.FC<ImageFeatureProps> = ({
   const [firstAsset] = imageAssets;
   
   // Generate optimized image URL for small icon display
-  const imageUrl = firstAsset
-    ? imageFrom(firstAsset)
-        .transform({ 
-          width: 600,    // Higher resolution for crisp display
-          height: 400,   // Maintain aspect ratio
-          fit: "cover",  // Smart crop
-          focal: firstAsset.fields?.focalPoint?.value || "center" // Use focal point or center
-        })
-        .url()
+  const focalPoint = firstAsset?.fields?.focalPoint?.value;
+  
+  // Build transform params manually - this is the most reliable approach
+  const baseUrl = firstAsset?.fields?.url?.value;
+  const focalParam = focalPoint ? `${focalPoint.x}x${focalPoint.y}` : "center";
+  const finalUrl = baseUrl 
+    ? `${baseUrl}?width=192&height=192&fit=cover&focal=${focalParam}` 
     : undefined;
 
   // Extract alt text for accessibility
@@ -76,11 +73,11 @@ export const ImageFeature: React.FC<ImageFeatureProps> = ({
       <CardContent className="p-6 text-center">
         {/* FEATURE IMAGE/ICON: Small centered image */}
         <div className="mb-6">
-          {imageUrl ? (
+          {finalUrl ? (
             // ACTUAL IMAGE: Optimized and properly sized
             <div className="relative w-24 h-24 mx-auto overflow-hidden rounded-lg bg-gray-100">
               <Image
-                src={imageUrl}
+                src={finalUrl}
                 alt={imageAlt}
                 fill
                 className="object-cover"
