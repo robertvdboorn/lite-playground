@@ -57,7 +57,8 @@ export const Image: React.FC<ImageProps> = ({
         .transform({ 
           width: 800,    // Resize to 800px width
           height: 600,   // Resize to 600px height  
-          fit: "cover"   // Smart crop to maintain aspect ratio
+          fit: "cover",  // Smart crop to maintain aspect ratio
+          focal: firstAsset.fields?.focalPoint?.value || "center" // Use focal point or center
         })
         .url()
     : undefined;

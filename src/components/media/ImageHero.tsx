@@ -63,7 +63,8 @@ export const ImageHero: React.FC<ImageHeroProps> = ({
         .transform({ 
           width: 1920,     // High resolution for quality
           height: 1080,    // 16:9 aspect ratio
-          fit: "cover"     // Smart crop to maintain aspect ratio
+          fit: "cover",    // Smart crop to maintain aspect ratio
+          focal: firstAsset.fields?.focalPoint?.value || "center" // Use focal point or center
         })
         .url()
     : undefined;

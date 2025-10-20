@@ -60,7 +60,8 @@ export const ImageFeature: React.FC<ImageFeatureProps> = ({
         .transform({ 
           width: 600,    // Higher resolution for crisp display
           height: 400,   // Maintain aspect ratio
-          fit: "cover"   // Smart crop
+          fit: "cover",  // Smart crop
+          focal: firstAsset.fields?.focalPoint?.value || "center" // Use focal point or center
         })
         .url()
     : undefined;
