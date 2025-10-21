@@ -1,0 +1,510 @@
+created: '2025-10-18T08:25:08.573047+00:00'
+modified: '2025-10-18T09:35:03.613792+00:00'
+pattern: false
+entry:
+  _id: e01ecf3d-a229-4501-a449-287613258ae7
+  _name: 'How to Brew the Perfect Espresso: Gear & Guidance'
+  _slug: how-to-brew-the-perfect-espresso-gear-and-guidance
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA&ixlib=rb-4.1.0&q=85
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - Inspiration
+        - Espresso
+        - Coffee Makers
+    title:
+      type: text
+      locales:
+        en-US: 'How to Brew the Perfect Espresso: Gear & Guidance'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-e01ecf3d-a229-4501-a449-287613258ae7-author/entries/0}
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Essential Gear
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Espresso Machine
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          The heart of your setup. Look for a machine with
+                          stable temperature control and at least 9 bars of
+                          pressure. Entry-level machines are great for
+                          beginners, but investing in a quality machine pays off
+                          in consistency.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Burr Grinder
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Freshly ground coffee is non-negotiable. A burr
+                          grinder ensures even particle size, which is crucial
+                          for balanced extraction. Avoid blade grinders—they
+                          produce uneven grounds.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Tamper
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          A sturdy tamper helps you compress the coffee grounds
+                          evenly in the portafilter. Consistent tamping pressure
+                          is key for even water flow.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Scale
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Precision matters. Use a digital scale to measure both
+                          your coffee dose and the yield of your espresso shot.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Fresh Coffee Beans
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Use high-quality, freshly roasted beans. Espresso is
+                          best within 2-4 weeks of roasting.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Steps to the Perfect Shot
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ol
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Grind & Dose
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Grind 18-20g of coffee for a double shot. The grind
+                          should be fine, like table salt.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Tamp Evenly
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Distribute the grounds in the portafilter and tamp
+                          with firm, even pressure.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Brew
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Lock the portafilter into the machine and start the
+                          shot. Aim for 25-30 seconds for a double shot (about
+                          36-40g out).
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Taste & Adjust
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - type: linebreak
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          If it’s sour, grind finer or increase the dose. If
+                          it’s bitter, grind coarser or decrease the dose.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: number
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Final Tips
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Use filtered water for the best taste.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Clean your machine and grinder regularly.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Practice makes perfect—keep notes and tweak your
+                          process.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      With the right gear and a little patience, you’ll be
+                      pulling café-quality espresso at home in no time.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    excerpt:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Espresso is more than just a coffee—it's a ritual, a
+                      science, and an art form. Whether you're a home barista or
+                      just getting started, discover the key steps to pulling
+                      the perfect shot.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    category:
+      type: select
+      value: lifestyle
+    readingTime:
+      type: number
+      value: 4
+    metaKeywords:
+      type: text
+      value: >-
+        espresso, coffee, home barista, brewing, gear, espresso machine,
+        grinder, how-to, guide
+    featuredImage:
+      type: asset
+      value:
+        - _id: 8fb4137c-124a-476f-9e62-49c0d136506a
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA&ixlib=rb-4.1.0&q=85
+            title:
+              type: text
+              value: Overhead shot of Espresso coffee surrounded by beans
+            width:
+              type: number
+              value: 3587
+            custom:
+              type: object
+              value:
+                color: '#260c0c'
+                apiUrl: >-
+                  https://api.unsplash.com/photos/blue-ceramic-mug-on-coffee-beans-p3dGOGBFbP4
+                blurHash: LB96p@Rj0zt7s:jZjZbH0zkC=_ni
+                sourceId: p3dGOGBFbP4
+                createdAt: '2021-01-26T20:13:36Z'
+                detailUrl: >-
+                  https://unsplash.com/photos/blue-ceramic-mug-on-coffee-beans-p3dGOGBFbP4
+                updatedAt: '2025-10-18T07:27:57Z'
+                authorName: Craig McKay
+                downloadUrl: >-
+                  https://unsplash.com/photos/p3dGOGBFbP4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA
+                photoRawUrl: >-
+                  https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA&ixlib=rb-4.1.0
+                photoFullUrl: >-
+                  https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA&ixlib=rb-4.1.0&q=85
+                photoSmallUrl: >-
+                  https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA&ixlib=rb-4.1.0&q=80&w=400
+                photoThumbUrl: >-
+                  https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA&ixlib=rb-4.1.0&q=80&w=200
+                authorUsername: ccmckay91
+                photoRegularUrl: >-
+                  https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA&ixlib=rb-4.1.0&q=80&w=1080
+                authorProfileUrl: https://unsplash.com/@ccmckay91
+                downloadLocation: >-
+                  https://api.unsplash.com/photos/p3dGOGBFbP4/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwyNXx8ZXNwcmVzc298ZW58MHx8fHwxNzYwNzc2MTYxfDA
+                authorProfileImage: >-
+                  https://images.unsplash.com/profile-fb-1611605175-ee3c72765c55.jpg?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+            height:
+              type: number
+              value: 3587
+            description:
+              type: text
+              value: Photo by Craig McKay on Unsplash
+          _source: unisplash-7525b8ea-cd19-402d-9044-3d025999dbc1
+    publishedDate:
+      type: date
+      value: '2025-10-08'
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover how to brew the perfect espresso at home with our
+          step-by-step guide, including essential equipment and expert tips for
+          delicious results every time.
+  _dataResources:
+    ref-e01ecf3d-a229-4501-a449-287613258ae7-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 01dfaf2e-ca36-4152-9fdf-03b3768c9c36
+  _locales:
+    - en-US

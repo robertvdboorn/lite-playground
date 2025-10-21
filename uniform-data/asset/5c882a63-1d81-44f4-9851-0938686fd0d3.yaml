@@ -1,0 +1,37 @@
+asset:
+  type: image
+  _id: 5c882a63-1d81-44f4-9851-0938686fd0d3
+  _name: Espresso-4.png
+  fields:
+    title:
+      type: text
+      value: Espresso Maker Premium Product Shot
+    description:
+      type: text
+      value: >-
+        Premium product shot of espresso maker with dramatic lighting. Emphasis
+        on craftsmanship details (polished steel, wood accents if applicable).
+        Could include detail shot of group head or control panel. Mood:
+        Aspirational, investment-piece quality
+    file:
+      type: file
+      value: 1de0927b-a18e-4e74-99f0-7d7051b40a45
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/LNPKd3cqTi2tqUMsZ4mauw-Espresso-4.png
+      type: text
+    size:
+      value: 966527
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-10-18T10:19:40.842182+00:00'
+modified: '2025-10-18T10:21:00.830371+00:00'

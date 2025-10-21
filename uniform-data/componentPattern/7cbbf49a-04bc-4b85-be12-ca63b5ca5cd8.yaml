@@ -1,0 +1,23 @@
+composition:
+  _name: Article Feature
+  _id: 7cbbf49a-04bc-4b85-be12-ca63b5ca5cd8
+  type: contentHero
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: 'Shaping Tomorrow: The Future of Digital Experiences'
+    imagePosition:
+      type: select
+      value: left
+  _overridability:
+    parameters:
+      title: 'yes'
+      description: 'yes'
+      imagePosition: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-21T10:16:49.166738+00:00'
+modified: '2025-10-21T10:16:49.166738+00:00'
+pattern: true

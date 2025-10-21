@@ -1,0 +1,849 @@
+composition:
+  _name: Best Espresso Maker Guide
+  _id: 0fa841e4-a04d-4e72-9c7c-1b93f570fa73
+  type: page
+  slots:
+    body:
+      - _id: 4e2bf218-9f50-4624-a279-7a92006a62e1
+        type: imageHero
+        slots:
+          cta:
+            - _id: 2aa23c9e-5cfb-4e0f-80b0-39d6db33edfa
+              type: cta
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Discover Your Match
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: 'Elevate Your Home Espresso Game: Find Your Perfect Machine'
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Discover expert-curated espresso makers designed for
+                            serious home baristas who are ready to pull
+                            café-quality shots in their own kitchen.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+          backgroundImage:
+            type: asset
+            value:
+              - _id: 942f0fc4-7b44-4b2b-855d-93ad3a2ef9dd
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 3361bf9e-dfd5-4a4e-836c-9344605e8df4
+                  url:
+                    value: >-
+                      https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/GeHV_qTwTUSBHIWZd4tcLA-Espresso-1.png
+                    type: text
+                  size:
+                    value: 1230471
+                    type: number
+                  title:
+                    type: text
+                    value: Sleek Espresso Machine on Marble Counter
+                  width:
+                    value: 1456
+                    type: number
+                  height:
+                    value: 816
+                    type: number
+                  mediaType:
+                    value: image/png
+                    type: text
+                  focalPoint:
+                    type: focalPoint
+                  description:
+                    type: text
+                    value: >-
+                      High-quality lifestyle shot of a sleek espresso machine on
+                      a marble counter with a perfect shot pulling into a glass
+                      cup.
+                _source: uniform-assets
+                _overrides:
+                  fields: {}
+      - _id: 737df5a1-6cef-43c3-93dd-e06da38d842f
+        type: richText
+        parameters:
+          content:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Whether you're graduating from your first machine or
+                            building your dream home café setup, choosing the
+                            right espresso maker is crucial. The difference
+                            between 
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: good espresso
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' and '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: extraordinary espresso
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' often comes down to three factors:'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Temperature stability
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Pressure consistency
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Build quality
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: null
+                      listType: bullet
+                      direction: null
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'After testing dozens of machines, we''ve selected '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: three standout options
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' that offer the best value at every investment level. Each delivers exceptional espresso—the real question is which features matter most to your coffee journey.'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+      - _id: 6c1def7b-7542-49f2-ba51-bcc59a83c809
+        type: richText
+        parameters:
+          content:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - tag: h2
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 5 Key Features That Separate Good from Great
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                    - tag: ol
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Temperature Stability:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' PID controllers maintain precise brewing temperature (±1°F), essential for consistent extraction. Look for machines with PID or dual boilers.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Pressure Profiling:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' The ability to control brew pressure (9 bars is standard) unlocks advanced techniques. Manual pre-infusion is a game-changer.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Build Quality:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Commercial-grade components (brass or stainless boilers, E61 group heads) ensure longevity and better thermal mass.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 4
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Steam Power:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Dedicated steam boilers or thermoblock systems determine how quickly you can texture milk and manage back-to-back drinks.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 5
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Upgrade Path:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Machines with 58mm portafilters give you access to professional accessories and endless customization options.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                      listType: number
+                      direction: null
+                  direction: null
+      - _id: 6af62a35-bd7d-4cb4-904e-a9a1b1a64339
+        type: section
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: 'Good, Better, Best: Your Perfect Espresso Maker'
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Discover coffee experiences expertly matched to your
+                            skill level and ambitions. Whether you're just
+                            starting out or aiming to master advanced brewing
+                            techniques, we connect you with the perfect tools,
+                            resources, and guidance to elevate your coffee
+                            journey.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+      - _id: 9773f905-a6f1-4b1e-b836-144de037df8e
+        type: cardGrid
+        slots:
+          cards:
+            - _id: 929ece3e-afc0-494b-bcf6-f697f3b605d5
+              type: imageFeature
+              slots:
+                cta:
+                  - _id: 005ef798-2801-4222-b27d-d1e7143f1103
+                    type: cta
+                    parameters:
+                      text:
+                        type: text
+                        locales:
+                          en-US: Shop This Machine
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 56a8298d-a86b-4048-a3c4-91e0b95cb87a
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: c5e93909-8fb0-4bd4-af21-5dfbccc48f0f
+                        url:
+                          value: >-
+                            https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/HSCmuia5TMie2AlA0gADzQ-Espresso-2.png
+                          type: text
+                        file:
+                          type: file
+                          value: 9e319863-2599-465e-ae5b-78d92a7034dd
+                        size:
+                          value: 836185
+                          type: number
+                        title:
+                          type: text
+                          value: >-
+                            The Skilled Beginner's Choice clean product shot on
+                            white minimal background
+                        width:
+                          value: 1024
+                          type: number
+                        height:
+                          value: 1024
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                        description:
+                          type: text
+                          value: >-
+                            Clean product of espresso maker that is the The
+                            Skilled Beginner's Choice, shot on white or minimal
+                            background
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-US: The Skilled Beginner's Choice
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Ideal for home baristas ready to take their espresso
+                      skills to the next level, this machine offers consistent,
+                      repeatable results with professional features. Enjoy
+                      precise PID temperature control, a commercial-style 58mm
+                      portafilter, and robust steam power for perfect milk-based
+                      drinks. Designed for ease of use, it delivers café-quality
+                      espresso without unnecessary complexity.
+
+
+                      Key Features:
+
+                      - PID temperature control for accuracy
+
+                      - 15-bar Italian pump for optimal extraction
+
+                      - 58mm portafilter (commercial size)
+
+                      - Includes both pressurized and unpressurized baskets
+
+                      - Fast 3-minute heat-up time
+            - _id: c85755f9-4f55-4ce3-97dc-33e2d35a3d9d
+              type: imageFeature
+              slots:
+                cta:
+                  - _id: bb1852d0-6453-420b-ba7e-84b23f31d589
+                    type: cta
+                    parameters:
+                      text:
+                        type: text
+                        locales:
+                          en-US: Shop This Machine
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: f507585f-7717-4216-9992-00785462d6f2
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 48ffe773-9959-4f73-9a87-6ccd7df167e3
+                        url:
+                          value: >-
+                            https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/FL3ka8IHTEC4OkBhce_ZcQ-Espresso-3.png
+                          type: text
+                        size:
+                          value: 1178524
+                          type: number
+                        title:
+                          type: text
+                          value: Espresso Machine in Use with Latte Art
+                        width:
+                          value: 1024
+                          type: number
+                        height:
+                          value: 1024
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                        focalPoint:
+                          type: focalPoint
+                        description:
+                          type: text
+                          value: >-
+                            Lifestyle shot showing espresso machine in use with
+                            steam wand frothing milk. Warm kitchen environment,
+                            morning light. Include a finished latte with art to
+                            show capability
+                      _source: uniform-assets
+                      _overrides:
+                        fields: {}
+                title:
+                  type: text
+                  locales:
+                    en-US: The Enthusiast's Powerhouse
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Designed for passionate home baristas seeking professional
+                      results, this machine features dual boiler or heat
+                      exchange technology for simultaneous brewing and steaming.
+                      Enjoy precise control with programmable pre-infusion, PID
+                      temperature regulation on both boilers, and a
+                      commercial-grade E61 group head. The professional steam
+                      wand and built-in shot timer ensure you can craft
+                      competition-level espresso drinks at home.
+
+
+                      Key Features:
+
+                      - Dual boiler or heat exchanger system
+
+                      - Programmable pre-infusion
+
+                      - PID on both boilers
+
+                      - Commercial E61 group head
+
+                      - Professional steam wand
+
+                      - Shot timer included
+            - _id: 3bf821b2-a567-45d6-900c-7737222f6cf9
+              type: imageFeature
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 8b7eec84-f34d-46b3-b954-460d01f58a46
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 5c882a63-1d81-44f4-9851-0938686fd0d3
+                        url:
+                          value: >-
+                            https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/LNPKd3cqTi2tqUMsZ4mauw-Espresso-4.png
+                          type: text
+                        file:
+                          type: file
+                          value: 1de0927b-a18e-4e74-99f0-7d7051b40a45
+                        size:
+                          value: 966527
+                          type: number
+                        title:
+                          type: text
+                          value: Espresso Maker Premium Product Shot
+                        width:
+                          value: 1024
+                          type: number
+                        height:
+                          value: 1024
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                        description:
+                          type: text
+                          value: >-
+                            Premium product shot of espresso maker with dramatic
+                            lighting. Emphasis on craftsmanship details
+                            (polished steel, wood accents if applicable). Could
+                            include detail shot of group head or control panel.
+                            Mood: Aspirational, investment-piece quality
+                      _source: uniform-assets
+                title:
+                  type: text
+                  locales:
+                    en-US: The Home Barista's Dream
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      Experience the pinnacle of espresso making with a machine
+                      that brings commercial-grade performance into your home.
+                      Designed for true enthusiasts, it features a whisper-quiet
+                      rotary pump, advanced pressure profiling, and robust
+                      Italian engineering for unmatched reliability. Enjoy
+                      precise control with dual PID-regulated boilers, a
+                      saturated group head, and programmable pre-infusion and
+                      shot profiles. Built with premium components for a 10+
+                      year lifespan, this machine is the ultimate choice for
+                      those who demand the best in every cup.
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: 'Good, Better, Best: Your Perfect Espresso Maker'
+      - _id: 1aef2732-dc6b-4153-8def-f2a6c9f583ec
+        type: richText
+        parameters:
+          content:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - tag: h2
+                      type: heading
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Still Not Sure? Here's How to Decide
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                    - tag: ul
+                      type: list
+                      start: 1
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: listitem
+                          value: 1
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Choose '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: Good
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 9
+                              version: 1
+                            - mode: normal
+                              text: ' if:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' You''re upgrading from a basic machine and want to master espresso fundamentals with reliable equipment that won''t limit your growth.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 2
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Choose '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: Better
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 9
+                              version: 1
+                            - mode: normal
+                              text: ' if:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' You''re ready to experiment with advanced techniques, make multiple drinks back-to-back, and want a machine that''ll last a decade with proper care.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                        - type: listitem
+                          value: 3
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'Choose '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: Best
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 9
+                              version: 1
+                            - mode: normal
+                              text: ' if:'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                            - mode: normal
+                              text: ' Espresso is a serious hobby or side passion, you value the ritual as much as the result, and you want zero compromises in your daily cup.'
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                      listType: bullet
+                      direction: null
+                  direction: null
+      - _id: 82d73178-b11d-433c-a208-312dc1f9a6d7
+        type: section
+        slots:
+          cta:
+            - _id: 8dfbc41f-3608-4b2a-8bbe-23fefefdbe39
+              type: cta
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Browse All Espresso Makers
+                style:
+                  type: select
+                  value: primary
+            - _id: 917f28be-bcdb-4f75-bf99-389fd0e7c57b
+              type: cta
+              parameters:
+                text:
+                  type: text
+                  locales:
+                    en-US: Download Free Buyer's Guide
+                style:
+                  type: select
+                  value: secondary
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Ready to Transform Your Home Coffee Experience?
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Expert guidance, detailed comparisons, and
+                            everything you need to make the right choice.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: null
+                      textStyle: ''
+                      textFormat: 0
+                  direction: null
+  _locales:
+    - en-US
+created: '2025-10-18T10:47:32.146488+00:00'
+modified: '2025-10-18T11:14:29.766178+00:00'
+pattern: false

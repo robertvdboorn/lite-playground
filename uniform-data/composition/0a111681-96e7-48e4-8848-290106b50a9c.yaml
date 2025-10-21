@@ -1,0 +1,12 @@
+composition:
+  _name: Best Espresso Maker Guide
+  _id: 0a111681-96e7-48e4-8848-290106b50a9c
+  type: page
+  _locales:
+    - en-US
+  _pattern: 8c9b96a7-e349-4a2f-bda9-65e736f43de6
+created: '2025-10-19T08:06:01.819737+00:00'
+modified: '2025-10-19T08:06:01.819737+00:00'
+pattern: false
+previewImageUrl: https://i.imgur.com/RImFCcc.png
+categoryId: ffaea98e-8af9-4f04-9e5b-d3287f7665d7

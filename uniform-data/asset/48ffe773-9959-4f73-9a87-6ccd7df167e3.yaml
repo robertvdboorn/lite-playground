@@ -1,0 +1,36 @@
+asset:
+  type: image
+  _id: 48ffe773-9959-4f73-9a87-6ccd7df167e3
+  _name: Espresso-3.png
+  fields:
+    title:
+      type: text
+      value: Espresso Machine in Use with Latte Art
+    description:
+      type: text
+      value: >-
+        Lifestyle shot showing espresso machine in use with steam wand frothing
+        milk. Warm kitchen environment, morning light. Include a finished latte
+        with art to show capability
+    file:
+      type: file
+      value: 9293653b-c639-4193-a065-9e611cb2abc8
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/FL3ka8IHTEC4OkBhce_ZcQ-Espresso-3.png
+      type: text
+    size:
+      value: 1178524
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-10-18T10:19:40.842182+00:00'
+modified: '2025-10-18T10:20:38.391286+00:00'

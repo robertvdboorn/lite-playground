@@ -1,0 +1,633 @@
+created: '2025-10-20T03:48:09.28958+00:00'
+modified: '2025-10-20T03:49:16.037039+00:00'
+pattern: false
+entry:
+  _id: b2c3d4e5-f6a7-4b5c-9d0e-1f2a3b4c5d6e
+  _name: 'Cappuccino vs. Latte: Which Coffee Should You Choose?'
+  _slug: cappuccino-vs-latte-which-coffee-should-you-choose
+  _thumbnail: >-
+    https://assets.lummi.ai/assets/QmTnqUpsBYh3DeWfsVdGa3CuwAcbbSirgbFmSM32whXHQ6?auto=format&w=1500&h=1500
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - Espresso
+        - Beans
+        - Inspiration
+    title:
+      type: text
+      locales:
+        en-US: 'Cappuccino vs. Latte: Which Coffee Should You Choose?'
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Introduction
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      When it comes to coffeehouse classics, few drinks are as
+                      beloved and frequently debated as the cappuccino and the
+                      latte. Both have become staples in cafes around the world,
+                      each with its own loyal following. Whether you’re a
+                      seasoned coffee enthusiast or just starting to explore the
+                      world of espresso-based beverages, understanding the
+                      differences between these two drinks can help you make the
+                      perfect choice for your next coffee break.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: What is a Cappuccino?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Composition
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A traditional cappuccino is a harmonious blend of three
+                      equal parts: espresso, steamed milk, and milk foam.
+                      Typically, a barista will pull a shot of espresso, add an
+                      equal amount of steamed milk, and then top it off with a
+                      thick, velvety layer of milk foam. This classic
+                      ratio—1:1:1—creates a balanced yet bold drink.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Texture and Flavor Profile
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The texture of a cappuccino is one of its defining
+                      features. The generous foam cap not only insulates the
+                      drink, keeping it warm, but also provides a light, airy
+                      mouthfeel. The foam acts as a buffer, mellowing the
+                      intensity of the espresso while still allowing its robust
+                      flavors to shine through. The result is a drink that is
+                      rich, strong, and slightly creamy, with a pronounced
+                      espresso kick and a luxurious, frothy finish.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: What is a Latte?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Composition
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A latte, short for "caffè latte" (Italian for "milk
+                      coffee"), is made with a shot (or sometimes two) of
+                      espresso, a much larger amount of steamed milk, and a thin
+                      layer of milk foam on top. The typical ratio is about 1
+                      part espresso to 3 or more parts steamed milk, with just a
+                      small cap of foam—much less than in a cappuccino.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Texture and Flavor Profile
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Lattes are known for their creamy, smooth texture. The
+                      abundance of steamed milk creates a velvety, almost silky
+                      mouthfeel, making the drink feel indulgent and comforting.
+                      The espresso flavor is present but much more subdued
+                      compared to a cappuccino, resulting in a milder, sweeter
+                      taste that appeals to those who prefer a less intense
+                      coffee experience. The thin layer of foam adds a touch of
+                      lightness without dominating the drink.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Key Differences Between Cappuccino and Latte
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Milk Ratios:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Cappuccinos use equal parts espresso, steamed milk, and foam, while lattes have much more steamed milk and only a small amount of foam.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Foam Texture:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Cappuccinos feature a thick, airy foam layer, whereas lattes have just a thin, delicate cap of foam.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Serving Size:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Cappuccinos are typically served in smaller cups (about 6 ounces), while lattes are served in larger cups or glasses (8-12 ounces or more).'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Flavor Intensity:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' The espresso flavor in a cappuccino is more pronounced due to the lower milk content, while lattes are creamier and milder.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Presentation:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Cappuccinos often have a domed foam top and may be dusted with cocoa or cinnamon. Lattes, with their larger surface area and thinner foam, are ideal for latte art—those beautiful designs made by skilled baristas.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Which One Should You Choose?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Choosing between a cappuccino and a latte ultimately comes
+                      down to your personal taste preferences and what you’re in
+                      the mood for.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Choose a cappuccino if:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' You enjoy a strong espresso flavor, appreciate a thick, foamy texture, and prefer a smaller, more concentrated drink. Cappuccinos are perfect for those who want a bold coffee experience with a luxurious, frothy finish.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Choose a latte if:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' You prefer a milder, creamier beverage with a subtle coffee taste. Lattes are great for those who like to linger over their drink, enjoy a larger serving, or want to add flavored syrups for a personalized touch.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Both drinks can be customized with alternative milks,
+                      extra shots of espresso, or flavorings, so don’t hesitate
+                      to experiment until you find your perfect cup.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Conclusion
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Whether you gravitate toward the bold, foamy allure of a
+                      cappuccino or the smooth, creamy comfort of a latte, both
+                      drinks have earned their place in the hearts of coffee
+                      lovers everywhere. Each offers a unique experience, and
+                      the best way to discover your favorite is to try both.
+                      Next time you visit your local café, order a cappuccino
+                      and a latte side by side—you might be surprised by which
+                      one you prefer!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    excerpt:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Cappuccino and latte are two of the most popular
+                      espresso-based drinks, each cherished by coffee lovers
+                      around the world. While both start with a rich shot of
+                      espresso, they differ in their milk ratios and texture,
+                      creating distinct flavors and experiences. Discover what
+                      sets these classic beverages apart and which one might be
+                      your perfect cup.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    category:
+      type: select
+      value: lifestyle
+    readingTime:
+      type: number
+      value: 5
+    metaKeywords:
+      type: text
+      value: >-
+        cappuccino vs latte, coffee comparison, espresso drinks, cappuccino,
+        latte, coffee guide, milk foam, steamed milk
+    featuredImage:
+      type: asset
+      value:
+        - _id: a39c9c40-e889-429f-ab73-d1dde545a8bc
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://assets.lummi.ai/assets/QmTnqUpsBYh3DeWfsVdGa3CuwAcbbSirgbFmSM32whXHQ6?auto=format&w=1500&h=1500
+            title:
+              type: text
+              value: Cozy Coffee and Cake Table Setting
+            width:
+              type: number
+              value: 928
+            custom:
+              type: object
+              value:
+                tags:
+                  - Cozy
+                  - Cake
+                  - overhead view
+                  - food photography
+                  - coffee break
+                blurhash: eKI}noDhWBt7WA~oNeM{-:oe-oRPjE%L%M%fxYxBaeRks7t6tRRiRO
+                sourceId: 5d31484e-c84e-41fd-bdcc-aa35432953a1
+                imageType: photo
+                authorName: Patrick Venegas
+                categories:
+                  - Still Life
+                  - Food and Drink
+                aspectRatio: 0.7532467532467533
+                orientation: vertical
+                colorPalette:
+                  '0':
+                    hex: '#85735c'
+                    weight: 0.3245442708333334
+                  '1':
+                    hex: '#c9cfcf'
+                    weight: 0.2731119791666667
+                  '2':
+                    hex: '#9f9d96'
+                    weight: 0.1663411458333333
+                  '3':
+                    hex: '#564027'
+                    weight: 0.1334635416666667
+                  '4':
+                    hex: '#d4bf9b'
+                    weight: 0.1025390625
+                selectedSize: original
+                originalWidth: 928
+                attributionUrl: >-
+                  https://www.lummi.ai/photo/cozy-coffee-and-cake-table-setting-kwhho?utm_source=api&utm_campaign=api&utm_medium=referral
+                originalHeight: 1232
+                authorProfileUrl: >-
+                  https://www.lummi.ai/creator/patrick?utm_source=api&utm_campaign=api&utm_medium=referral
+                dominantColorGroup: stone500
+                dominantColorWeight: 0.3245442708333334
+            height:
+              type: number
+              value: 1232
+            description:
+              type: text
+              value: >-
+                Cozy Coffee and Cake Table Setting - AI-generated image by
+                Patrick Venegas on Lummi
+          _source: lummi-9bed3bbc-6464-4e11-807b-0d72dbfa4f4e
+    publishedDate:
+      type: date
+      value: '2025-10-20'
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover the key differences between cappuccino and latte. Learn which
+          coffee drink suits your taste and find the perfect brew for your next
+          café visit.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

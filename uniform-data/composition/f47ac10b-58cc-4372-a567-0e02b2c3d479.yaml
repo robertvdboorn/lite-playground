@@ -1,0 +1,23 @@
+composition:
+  _name: Best Espresso Maker Guide
+  _id: f47ac10b-58cc-4372-a567-0e02b2c3d479
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en-US: Best Espresso Maker Guide - Find Your Perfect Machine
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover the best espresso makers for home baristas. Compare
+          expert-recommended machines by skill level and budget to find your
+          perfect espresso maker.
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-19T12:19:23.749802+00:00'
+modified: '2025-10-19T12:19:23.749802+00:00'
+pattern: false

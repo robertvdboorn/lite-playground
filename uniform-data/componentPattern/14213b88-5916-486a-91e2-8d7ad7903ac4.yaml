@@ -1,0 +1,50 @@
+composition:
+  _name: InRiver Single Product
+  _id: 14213b88-5916-486a-91e2-8d7ad7903ac4
+  type: imageFeature
+  parameters:
+    image:
+      type: asset
+      value:
+        - _id: 1264fd3f-22b5-4670-9dda-d804753f71e6
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Single Coffee maker Content/0/values/productimage}
+          _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Single Coffee maker Content/0/values/modelname}
+    description:
+      type: text
+      locales:
+        en-US: ${#jptr:/Single Coffee maker Content/0/values/description}
+  slots:
+    cta:
+      - _id: cb2cc901-f682-4b27-88b5-1676a987cf52
+        type: cta
+        parameters:
+          text:
+            type: text
+            locales:
+              en-US: Learn more
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Single Coffee maker Content:
+      type: singleCoffeeMaker
+      variables:
+        id: '7759'
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-18T08:40:36.329778+00:00'
+modified: '2025-10-18T08:42:31.408538+00:00'
+pattern: true

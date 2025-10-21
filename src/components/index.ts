@@ -9,6 +9,7 @@ export { default as Section, type SectionProps } from './content/Section';
 export { default as CTA, type CTAProps } from './content/CTA';
 export { default as RichText, type RichTextProps } from './content/RichText';
 export { default as Text, type TextProps } from './content/Text';
+export { default as ContentHero, type ContentHeroProps } from './content/ContentHero';
 
 // === ARTICLE COMPONENTS ===
 export { default as ArticleHeader, type ArticleHeaderProps } from './article/ArticleHeader';

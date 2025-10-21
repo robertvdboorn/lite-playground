@@ -1,0 +1,27 @@
+composition:
+  _name: InRiver product card pattern
+  _id: c538ce4e-0f0e-4f8d-be6e-bbdde531a11f
+  type: card
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Single Coffee maker Content/0/values/modelname}
+    content:
+      type: text
+      locales:
+        en-US: ${#jptr:/Single Coffee maker Content/0/values/description}
+  _dataResources:
+    Single Coffee maker Content:
+      type: singleCoffeeMaker
+      variables:
+        id: '7759'
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-17T14:34:17.91225+00:00'
+modified: '2025-10-17T14:35:16.028125+00:00'
+pattern: true

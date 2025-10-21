@@ -1,0 +1,687 @@
+created: '2025-10-18T09:29:29.996479+00:00'
+modified: '2025-10-18T09:34:13.149177+00:00'
+pattern: false
+entry:
+  _id: b03d147f-cf16-4792-8692-751d05a215e6
+  _name: How to Select the Right Espresso Beans for Different Brews
+  _slug: how-to-select-the-right-espresso-beans-for-different-brews
+  _thumbnail: >-
+    https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - Espresso
+        - Beans
+        - Coffee Makers
+    title:
+      type: text
+      locales:
+        en-US: How to Select the Right Espresso Beans for Different Brews
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-b03d147f-cf16-4792-8692-751d05a215e6-author/entries/0}
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 1. Understanding Espresso Beans
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      When it comes to espresso, not all coffee beans are
+                      created equal. So, what makes a bean “espresso”?
+                      Technically, any coffee bean can be used for espresso, but
+                      roasters often select beans and roast profiles that bring
+                      out the bold, concentrated flavors espresso lovers crave.
+                      Espresso beans are typically roasted longer, resulting in
+                      a medium to dark roast that highlights rich, chocolatey,
+                      and caramel notes while minimizing acidity.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Roast Levels:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Light Roast:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Retains more of the bean’s original flavors, often with higher acidity and fruity or floral notes. Less common for traditional espresso but great for adventurous palates.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Medium Roast:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Balances acidity and body, offering a mix of origin flavors and roast character. Versatile for various brew methods.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Dark Roast:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Brings out bold, smoky, and chocolatey flavors with a heavier body and lower acidity. A classic choice for espresso.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Single Origin vs. Blends:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' Single origin beans come from one region or farm, offering unique and distinct flavors. Blends combine beans from different origins to create a balanced and consistent flavor profile, often tailored for espresso.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 2. Matching Beans to Brew Methods
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Espresso Machine:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Medium to dark roasts are ideal, as they produce the rich, bold flavors and crema that espresso is known for.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'French Press:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Medium roasts with balanced acidity and body work well, delivering a smooth and full-bodied cup.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Pour-Over:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Lighter roasts shine here, highlighting subtle flavors and aromas that might be lost in darker roasts.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Cold Brew:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Use coarse-ground, medium to dark roasts for a smooth, mellow, and less acidic drink.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 3. Flavor Profiles to Consider
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Espresso beans can offer a wide range of flavors. Some
+                      common notes include:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Nutty:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Almond, hazelnut, or peanut flavors add warmth and comfort.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Chocolatey:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Cocoa and dark chocolate notes are classic in espresso blends.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Fruity:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Berry, citrus, or stone fruit notes add brightness and complexity.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Floral:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Jasmine or rose hints are more common in lighter roasts and single origins.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Consider the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: acidity
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' (brightness or tanginess) and '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: body
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: ' (mouthfeel or weight) of the coffee. A well-balanced espresso often has a pleasant acidity and a creamy, full body.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4. Tips for Experimenting
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Try sampler packs:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Many roasters offer sample sizes of different beans, making it easy to explore new flavors without committing to a full bag.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Adjust grind size and dose:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Small tweaks can make a big difference in flavor and extraction.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Keep notes:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' Jot down what you like (and don’t like) about each bean and brew. Over time, you’ll discover your preferences.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Conclusion
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The perfect espresso bean is the one that matches your
+                      taste and brew method. Don’t be afraid to
+                      experiment—exploring different beans, roasts, and origins
+                      is part of the fun of making great coffee at home!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    excerpt:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Choosing the right espresso beans is essential for
+                      crafting a delicious cup of coffee. In this article, we’ll
+                      guide you through how to select the best beans for your
+                      espresso, tailored to your brewing method and personal
+                      taste preferences.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    readingTime:
+      type: number
+      value: 6
+    metaKeywords:
+      type: text
+      value: >-
+        espresso beans, best espresso beans, coffee beans for espresso, espresso
+        roast, coffee brewing methods, single origin espresso, espresso blends,
+        dark roast coffee, medium roast coffee, light roast espresso, espresso
+        flavor profiles, choosing coffee beans, home espresso, coffee tips,
+        coffee selection, espresso machine, French press, pour-over, cold brew,
+        coffee tasting, coffee guide
+    featuredImage:
+      type: asset
+      value:
+        - _id: 257bd488-5105-4f25-9abe-5d6c10515416
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+            title:
+              type: text
+              value: >-
+                Close-up of coffee beans being roasted in an industrial machine,
+                emphasizing motion and production.
+            width:
+              type: number
+              value: 3381
+            custom:
+              type: object
+              value:
+                sourceId: '4820772'
+                pexelsUrl: >-
+                  https://www.pexels.com/photo/brown-and-black-round-table-4820772/
+                photoTinyUrl: >-
+                  https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                photographer: cottonbro studio
+                photoLargeUrl: >-
+                  https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                photoSmallUrl: >-
+                  https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&h=130
+                photoMediumUrl: >-
+                  https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&h=350
+                photoLarge2xUrl: >-
+                  https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                photographerUrl: https://www.pexels.com/@cottonbro
+                photoPortraitUrl: >-
+                  https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                pexelsOriginalUrl: >-
+                  https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg
+                photoLandscapeUrl: >-
+                  https://images.pexels.com/photos/4820772/pexels-photo-4820772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+            height:
+              type: number
+              value: 5071
+            description:
+              type: text
+              value: >-
+                Close-up of coffee beans being roasted in an industrial machine,
+                emphasizing motion and production. - Photo by cottonbro studio
+                on Pexels
+          _source: pexels-442ee51c-03eb-4185-94c5-0585aba031f1
+    publishedDate:
+      type: date
+      value: '2025-10-10'
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover how to choose the best espresso beans for your brewing method
+          and taste preferences. Learn about roast levels, flavor profiles, and
+          tips for selecting the perfect beans for delicious espresso at home.
+  _dataResources:
+    ref-b03d147f-cf16-4792-8692-751d05a215e6-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: ed22a4e2-77e0-4b61-bad0-7610178c844a
+  _locales:
+    - en-US

@@ -1,0 +1,30 @@
+composition:
+  _name: 'New entry: Article'
+  _id: a1b2c3d4-e5f6-4890-abcd-ef1234567890
+  _slug: top-halloween-espresso-drinks
+  type: page
+  parameters:
+    tags:
+      type: multi-select
+      value:
+        - Espresso
+        - Inspiration
+    category:
+      type: select
+      value: lifestyle
+    readingTime:
+      type: number
+      value: 5
+    metaKeywords:
+      type: text
+      value: >-
+        Halloween espresso, seasonal coffee drinks, pumpkin spice espresso,
+        Halloween coffee recipes, festive espresso drinks
+    publishedDate:
+      type: date
+      value: '2025-10-19'
+  _overridability:
+    hideLockedParameters: true
+created: '2025-10-19T12:11:29.53513+00:00'
+modified: '2025-10-19T12:30:52.26835+00:00'
+pattern: false

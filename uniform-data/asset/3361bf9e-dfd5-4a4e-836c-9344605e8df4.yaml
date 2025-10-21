@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 3361bf9e-dfd5-4a4e-836c-9344605e8df4
+  _name: Espresso-1.png
+  fields:
+    title:
+      type: text
+      value: Sleek Espresso Machine on Marble Counter
+    description:
+      type: text
+      value: >-
+        High-quality lifestyle shot of a sleek espresso machine on a marble
+        counter with a perfect shot pulling into a glass cup.
+    file:
+      type: file
+      value: fdfed36d-3091-472c-a9da-5f56dde2aa18
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/GeHV_qTwTUSBHIWZd4tcLA-Espresso-1.png
+      type: text
+    size:
+      value: 1230471
+      type: number
+    width:
+      value: 1456
+      type: number
+    height:
+      value: 816
+      type: number
+    custom: {}
+created: '2025-10-18T10:18:28.109061+00:00'
+modified: '2025-10-18T10:19:10.177158+00:00'

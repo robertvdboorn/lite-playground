@@ -1,0 +1,9 @@
+composition:
+  _name: Best Espresso Maker Guide
+  _id: aabbccdd-eeff-4001-8122-334455667788
+  type: page
+  _overridability:
+    hideLockedParameters: true
+created: '2025-10-19T12:13:45.808484+00:00'
+modified: '2025-10-19T12:13:45.808484+00:00'
+pattern: false

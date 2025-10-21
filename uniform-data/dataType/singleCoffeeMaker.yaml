@@ -1,0 +1,21 @@
+id: singleCoffeeMaker
+displayName: Single Coffee maker
+ttl: 30
+body: '{"entityIds": [${id}], "objects": "EntitySummary,FieldValues"}'
+path: /api/v1.0.1/entities:fetchdata
+custom:
+  imageField: productimage
+  displayField: modelname
+  proposedName: Single Entity
+  allowedContentTypes:
+    - coffeemakers
+method: POST
+purgeKey: 27f5d8a6-0d9e-41ea-8315-1f139ac65899
+archetype: singleEntity
+variables:
+  id:
+    type: text
+    default: ''
+    displayName: Entity ID
+dataSourceId: inriver
+allowedOnComponents: []

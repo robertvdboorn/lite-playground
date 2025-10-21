@@ -1,0 +1,9 @@
+id: 89f35637-5a77-42ab-861c-03849b7f24fc
+name: Best Espresso Maker Guide
+order: 699
+path: /:locale/campaigns/best-espresso-maker-guide
+type: composition
+pathSegment: best-espresso-maker-guide
+data: {}
+compositionId: a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d
+projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

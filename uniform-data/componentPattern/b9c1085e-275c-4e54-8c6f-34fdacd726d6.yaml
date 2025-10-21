@@ -1,0 +1,23 @@
+composition:
+  _name: Product Showcase
+  _id: b9c1085e-275c-4e54-8c6f-34fdacd726d6
+  type: contentHero
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Discover Our Latest Innovation
+    imagePosition:
+      type: select
+      value: right
+  _overridability:
+    parameters:
+      title: 'yes'
+      description: 'yes'
+      imagePosition: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-21T10:16:39.55689+00:00'
+modified: '2025-10-21T10:16:39.55689+00:00'
+pattern: true

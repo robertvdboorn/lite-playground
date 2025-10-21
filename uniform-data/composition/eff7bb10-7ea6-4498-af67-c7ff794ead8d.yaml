@@ -59,7 +59,7 @@ composition:
                         value: 48e3ccbb-fcda-4707-8994-6a57241dd3fb
                       url:
                         value: >-
-                          https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/nwJ_9FYsTNCt_euV_nbjCw-Image-One.png
+                          https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/O_DwNwawTMeOMLto-peZ6g-Image-One.png
                         type: text
                       file:
                         type: file
@@ -94,7 +94,7 @@ composition:
                         value: 4c15d29f-e88d-4ba1-bbc4-5d58a193fa20
                       url:
                         value: >-
-                          https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/su8zdd78SVSfetd-3J1cGg-Image-Two.png
+                          https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/cUdrvQcBS3aYhstJO-uK8w-Image-Two.png
                         type: text
                       file:
                         type: file
@@ -115,6 +115,10 @@ composition:
                         value: image/png
                         type: text
                     _source: uniform-assets
+                    _overrides:
+                      fields:
+                        focalPoint:
+                          type: focalPoint
               title:
                 type: text
                 value: Standalone Image Component
@@ -141,7 +145,7 @@ composition:
                               value: b03d6df4-f821-4a6f-a90f-1da86d331aaa
                             url:
                               value: >-
-                                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/le-N3vqaSgeS5awtKTObuw-Image-Three.png
+                                https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/lID1wO5bSmaJOBocrNMGRA-Image-Three.png
                               type: text
                             file:
                               type: file
@@ -162,6 +166,10 @@ composition:
                               value: image/png
                               type: text
                           _source: uniform-assets
+                          _overrides:
+                            fields:
+                              focalPoint:
+                                type: focalPoint
                     title:
                       type: text
                       value: Easy Upload
@@ -185,7 +193,7 @@ composition:
                               value: 9029d3aa-40be-41e6-bb3d-a357e8714f05
                             url:
                               value: >-
-                                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/9ov9io9gTGWkWhr7zzv2WQ-Image-Four.png
+                                https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/uOFLHdUgTAm9X_Z1O-23FQ-Image-Four.png
                               type: text
                             file:
                               type: file
@@ -230,7 +238,7 @@ composition:
                               value: 61c05cea-d8a4-4730-9790-eb4d565dd02e
                             url:
                               value: >-
-                                https://img.eu.uniform.global/p/zOXNnycQRhCxqdWrkrsaAQ/h_qUNXwcTlSN1seNMaYOBQ-Image-Five.png
+                                https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/B5qtNIP0T1C31O4KH5QjBA-Image-Five.png
                               type: text
                             file:
                               type: file
@@ -267,6 +275,6 @@ composition:
   _locales:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
-created: '2025-09-18T10:19:48.734189+00:00'
-modified: '2025-09-18T14:51:07.484012+00:00'
+created: '2025-09-18T12:09:48.031414+00:00'
+modified: '2025-10-20T10:59:32.106037+00:00'
 pattern: false

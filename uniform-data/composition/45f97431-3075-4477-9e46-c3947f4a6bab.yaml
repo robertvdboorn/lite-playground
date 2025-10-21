@@ -4,25 +4,66 @@ composition:
   _slug: /
   type: page
   _overrides:
+    1d796ef3-3b30-4da0-b16e-e8c542243688:
+      dataResources:
+        Single Coffee maker Content:
+          type: singleCoffeeMaker
+          variables:
+            id: '7760'
     45f97431-3075-4477-9e46-c3947f4a6bab:
       parameters:
         pageTitle:
           type: text
           locales:
             en-US: Homepage
+    99045656-fa1b-4553-a98b-9a76be0b7322:
+      dataResources:
+        Multiple Coffee makers Content:
+          type: multipleCoffeeMakers
+          variables:
+            ids: '[7759,7760,7761]'
+    f30782f2-6c5d-4931-af78-027240693ade:
+      dataResources:
+        Uniform Articles Query Content:
+          type: uniformArticlesQuery
+          variables:
+            locale: ${locale}
+            search: ''
+            filters: '{"type[eq]":"article","fields.title[match]":"espresso"}'
+            uiFilters: >-
+              [{"field":"type","operator":"eq","value":"article"},{"field":"fields.title","operator":"match","value":"espresso"}]
+            contentTypes: article
     45f97431-3075-4477-9e46-c3947f4a6bab|bea24f96-81cb-4cd0-ba68-f82bcf404627:
       slots:
         $slotSectionItems:
-          - _id: 86f36267-d257-4420-a4c3-e7e4c001a12d
-            type: section
+          - _id: f22a04cb-14cb-42e9-9306-c3545aa48241
+            type: imageHero
+            slots:
+              cta:
+                - _id: 0709c5a9-d854-46ce-acd3-0f0e94fd77ab
+                  type: cta
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /${locale}/images
+                        type: projectMapNode
+                        nodeId: 86925a2f-efdb-484f-a1a2-cb5c9f49126f
+                        projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+                        dynamicInputValues:
+                          locale: ${locale}
+                    text:
+                      type: text
+                      locales:
+                        en-US: Learn More
+                    style:
+                      type: select
+                      value: primary
             parameters:
               title:
                 type: text
                 locales:
-                  en-US: Welcome to Your Sandbox
-              variant:
-                type: select
-                value: hero
+                  en-US: Barista Espresso Maker Pro
               description:
                 type: richText
                 locales:
@@ -40,20 +81,191 @@ composition:
                           children:
                             - mode: normal
                               text: >-
-                                Click directly on any text to edit it inline.
-                                Use the '+' buttons to add new components
-                                anywhere on the page. Drag components to
-                                rearrange them. Everything is editable right
-                                here in the visual interface.
+                                Experience the art of coffee making with the
+                                Barista Espresso Maker Pro. Perfect for home
+                                enthusiasts and professionals alike, this
+                                machine delivers rich, flavorful espresso with
+                                every cup. Start your day with the perfect brew
+                                and elevate your coffee moments.
                               type: text
                               style: ''
                               detail: 0
                               format: 0
                               version: 1
-                          direction: ltr
+                          direction: null
                           textStyle: ''
                           textFormat: 0
-                      direction: ltr
+                      direction: null
+              backgroundImage:
+                type: asset
+                value:
+                  - _id: 2e96d9af-8085-455a-9099-a79497388a87
+                    type: image
+                    fields:
+                      url:
+                        type: text
+                        value: >-
+                          https://assets.lummi.ai/assets/QmTmq44rR98dGvmSfyZyMTA1jvGx33omS3RTYkb9qo2464?auto=format&w=1500&h=1500
+                      title:
+                        type: text
+                        value: Barista Serving Coffee
+                      width:
+                        type: number
+                        value: 5632
+                      custom:
+                        type: object
+                        value:
+                          tags:
+                            - Coffee
+                            - Hospitality
+                            - warm atmosphere
+                            - espresso machine
+                            - barista
+                          blurhash: >-
+                            eOGRbii_smNG%2~qr=M{oLR+xtD%RPtRR+%19ZM{%MxaI;n$WBt7kC
+                          sourceId: d6d71989-82de-4327-976d-aa8937c80d5a
+                          imageType: photo
+                          authorName: Amino
+                          categories:
+                            - People
+                            - Food and Drink
+                          aspectRatio: 1.833333333333333
+                          orientation: horizontal
+                          colorPalette:
+                            '0':
+                              hex: '#150c07'
+                              weight: 0.2558035714285714
+                            '1':
+                              hex: '#d6c7bb'
+                              weight: 0.2299107142857143
+                            '2':
+                              hex: '#897567'
+                              weight: 0.1598214285714286
+                            '3':
+                              hex: '#443327'
+                              weight: 0.1549107142857143
+                            '4':
+                              hex: '#6f4120'
+                              weight: 0.1049107142857143
+                            '5':
+                              hex: '#b6855d'
+                              weight: 0.09464285714285714
+                          selectedSize: original
+                          originalWidth: 5632
+                          attributionUrl: >-
+                            https://www.lummi.ai/photo/barista-serving-coffee-wmzmy?utm_source=api&utm_campaign=api&utm_medium=referral
+                          originalHeight: 3072
+                          authorProfileUrl: >-
+                            https://www.lummi.ai/creator/amino?utm_source=api&utm_campaign=api&utm_medium=referral
+                          dominantColorGroup: stone900
+                          dominantColorWeight: 0.2558035714285714
+                      height:
+                        type: number
+                        value: 3072
+                      focalPoint:
+                        type: focalPoint
+                        value:
+                          x: 0.2
+                          'y': 0.07
+                      description:
+                        type: text
+                        value: >-
+                          Barista Serving Coffee - AI-generated image by Amino
+                          on Lummi
+                    _source: lummi-9bed3bbc-6464-4e11-807b-0d72dbfa4f4e
+          - _id: f30782f2-6c5d-4931-af78-027240693ade
+            type: cardGrid
+            _pattern: ee1e7388-9062-4b26-b565-92add9b87d1a
+            _dataResources:
+              Uniform Articles Query Content:
+                type: uniformArticlesQuery
+                variables:
+                  locale: ${locale}
+                  search: ''
+                  filters: '{"type[eq]":"article","fields.title[match]":"espresso"}'
+                  uiFilters: >-
+                    [{"field":"type","operator":"eq","value":"article"},{"field":"fields.title","operator":"match","value":"espresso"}]
+                  contentTypes: article
+            _overridability:
+              hideLockedParameters: true
+          - _id: 249c87ab-9ae1-4b77-8671-02b968b38aa8
+            type: image
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: ced0b7b0-d691-4c92-935b-3f8af9a2b848
+                    type: image
+                    fields:
+                      url:
+                        type: text
+                        value: >-
+                          https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                      title:
+                        type: text
+                        value: >-
+                          Close-up of a barista pouring milk to create latte art
+                          in a coffee shop in Central Java.
+                      width:
+                        type: number
+                        value: 4608
+                      custom:
+                        type: object
+                        value:
+                          sourceId: '2036775'
+                          pexelsUrl: >-
+                            https://www.pexels.com/photo/person-pouring-liquid-in-cup-2036775/
+                          photoTinyUrl: >-
+                            https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                          photographer: azzam zicc
+                          photoLargeUrl: >-
+                            https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                          photoSmallUrl: >-
+                            https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg?auto=compress&cs=tinysrgb&h=130
+                          photoMediumUrl: >-
+                            https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg?auto=compress&cs=tinysrgb&h=350
+                          photoLarge2xUrl: >-
+                            https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                          photographerUrl: https://www.pexels.com/@azzamzicc
+                          photoPortraitUrl: >-
+                            https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                          pexelsOriginalUrl: >-
+                            https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg
+                          photoLandscapeUrl: >-
+                            https://images.pexels.com/photos/2036775/pexels-photo-2036775.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                      height:
+                        type: number
+                        value: 3072
+                      description:
+                        type: text
+                        value: >-
+                          Close-up of a barista pouring milk to create latte art
+                          in a coffee shop in Central Java. - Photo by azzam
+                          zicc on Pexels
+                    _source: pexels-442ee51c-03eb-4185-94c5-0585aba031f1
+              title:
+                type: text
+                locales:
+                  en-US: Shot of the week
+              caption:
+                type: text
+                locales:
+                  en-US: >-
+                    A barista skillfully pours milk to create beautiful latte
+                    art in a cozy Central Java coffee shop. Photo by azzam zicc
+                    on Pexels.
+          - _id: 99045656-fa1b-4553-a98b-9a76be0b7322
+            type: cardGrid
+            _pattern: 835a43ae-f777-4c8f-9201-74ca464163e3
+            _dataResources:
+              Multiple Coffee makers Content:
+                type: multipleCoffeeMakers
+                variables:
+                  ids: '[7759,7760,7761]'
+            _overridability:
+              parameters:
+                title: 'yes'
+              hideLockedParameters: true
           - _id: cd31abee-21b4-460c-96be-1dd4c22a2883
             type: cardGrid
             slots:
@@ -63,39 +275,49 @@ composition:
                   parameters:
                     title:
                       type: text
-                      value: ✨ Visual Editing
+                      value: 🚚 We ship every day @ 10pm ET
                     content:
                       type: text
-                      value: >-
-                        Edit content directly in the browser with real-time
-                        preview. No technical skills required!
+                      value: Submit your order at 9.59pm and get next day delivery.
                 - _id: 976dc430-d6b5-47bc-8d11-c2574a059c98
                   type: card
                   parameters:
                     title:
                       type: text
-                      value: Add Components
+                      value: 🤩 Satisfaction guarantee
                     content:
                       type: text
                       value: >-
-                        Look for the '+' buttons around the page to add new
-                        sections, cards, or content blocks.
+                        If you aren't delighted by our products, we will refund
+                        you 100%
                 - _id: 1325b426-01fe-406c-b864-dacd4dccaee5
                   type: card
                   parameters:
                     title:
                       type: text
-                      value: 🔄 Drag & Drop
+                      value: ☕️ Quality in each bean
                     content:
                       type: text
                       locales:
-                        en-US: >
-                          Use the structure panel to drag and drop components
-                          and create the perfect layout.
+                        en-US: >-
+                          Our beans are carefully selected by the best makers in
+                          the world.
             parameters:
               title:
                 type: text
-                value: Try These Actions
+                value: Our Ship to Sip standards
+          - _id: 1d796ef3-3b30-4da0-b16e-e8c542243688
+            type: imageFeature
+            _pattern: 14213b88-5916-486a-91e2-8d7ad7903ac4
+            _dataResources:
+              Single Coffee maker Content:
+                type: singleCoffeeMaker
+                variables:
+                  id: '7760'
+            _overridability:
+              parameters:
+                $viz: 'yes'
+              hideLockedParameters: true
           - _id: ede311f9-b6b9-4724-8bfe-52abe4404087
             type: text
             parameters:
@@ -111,6 +333,6 @@ composition:
   _locales:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
-created: '2025-09-18T10:16:39.551463+00:00'
-modified: '2025-09-18T15:07:37.159848+00:00'
+created: '2025-09-18T12:09:47.99461+00:00'
+modified: '2025-10-19T19:17:54.104853+00:00'
 pattern: false

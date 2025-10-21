@@ -1,0 +1,37 @@
+asset:
+  type: image
+  _id: c5e93909-8fb0-4bd4-af21-5dfbccc48f0f
+  _name: Espresso-2.png
+  fields:
+    title:
+      type: text
+      value: >-
+        The Skilled Beginner's Choice clean product shot on white minimal
+        background
+    description:
+      type: text
+      value: >-
+        Clean product of espresso maker that is the The Skilled Beginner's
+        Choice, shot on white or minimal background
+    file:
+      type: file
+      value: 9e319863-2599-465e-ae5b-78d92a7034dd
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/HSCmuia5TMie2AlA0gADzQ-Espresso-2.png
+      type: text
+    size:
+      value: 836185
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-10-18T10:19:40.842182+00:00'
+modified: '2025-10-18T10:41:29.65494+00:00'

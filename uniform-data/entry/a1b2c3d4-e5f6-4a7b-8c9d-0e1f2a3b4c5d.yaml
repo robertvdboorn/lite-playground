@@ -1,0 +1,1283 @@
+created: '2025-10-19T19:03:15.566509+00:00'
+modified: '2025-10-19T19:09:16.132003+00:00'
+pattern: false
+entry:
+  _id: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d
+  _name: 'The Perfect Cortado: A Guide to Brewing Balance in a Cup'
+  _slug: the-perfect-cortado-a-guide-to-brewing-balance-in-a-cup
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1519532059956-a63a37af5deb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww&ixlib=rb-4.1.0&q=85
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - Espresso
+        - Coffee Makers
+        - tutorial
+    title:
+      type: text
+      value: 'The Perfect Cortado: A Guide to Brewing Balance in a Cup'
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - tag: h1
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'How to Brew the Perfect Cortado: A Comprehensive Guide'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The cortado is a beloved staple in Spanish coffee culture,
+                    prized for its balance and simplicity. If you’re looking to
+                    master this elegant drink at home, understanding its
+                    origins, ideal preparation, and how it stands apart from
+                    other espresso-based beverages is key. Here’s everything you
+                    need to know to brew the perfect cortado.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: What is a Cortado? Origins and Meaning
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'The word '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: cortado
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ' comes from the Spanish verb '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: cortar
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , meaning “to cut.” In the context of coffee, it refers to
+                    espresso that’s “cut” with a small amount of steamed milk.
+                    This drink originated in Spain, where coffee is an integral
+                    part of daily life and social culture. The cortado is
+                    designed to soften the intensity of espresso without
+                    overwhelming it, resulting in a harmonious, smooth cup
+                    that’s neither too strong nor too milky.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: The Ideal Cortado Ratio
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The hallmark of a true cortado is its 1:1 ratio of espresso
+                    to steamed milk. This means equal parts of each, typically
+                    served in a small glass (about 4–5 ounces). The milk is
+                    steamed just enough to create a velvety texture, with little
+                    to no foam, allowing the espresso’s character to shine
+                    through while mellowing its acidity and bitterness.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Step-by-Step: Brewing the Perfect Cortado'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - tag: ol
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Prepare Your Espresso:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Start by grinding fresh, high-quality coffee beans. Pull a double shot (about 2 ounces) of espresso into a small glass. Aim for a balanced extraction—rich, aromatic, and not too bitter or sour.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Steam the Milk:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Use whole milk for the best texture. Steam it to a temperature of 130–140°F (54–60°C). The goal is a silky, velvety microfoam—not the thick, airy foam used for cappuccinos. Swirl the milk to integrate any bubbles and achieve a glossy finish.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Pour the Milk:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Gently pour an equal amount of steamed milk over the espresso. Pour slowly to maintain the 1:1 ratio and avoid disturbing the crema. The finished drink should have a uniform, tan color with a thin layer of microfoam on top.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+              listType: number
+              direction: null
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Key Tips for Cortado Success
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Use Quality Beans:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' The cortado’s simplicity means every element matters. Choose freshly roasted, high-quality beans for the best flavor.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Perfect Your Espresso:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Dial in your grind size and extraction time to avoid bitterness or sourness. A well-balanced espresso is the foundation of a great cortado.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Mind the Milk Temperature:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Overheated milk can taste burnt and lose its sweetness. Stick to 130–140°F for optimal flavor and texture.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Serve in a Small Glass:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Presentation matters. Use a 4–5 ounce glass to highlight the cortado’s balanced proportions and visual appeal.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+              listType: bullet
+              direction: null
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Common Mistakes to Avoid
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Over-foaming the Milk:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Too much foam will overpower the espresso and disrupt the cortado’s signature texture.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Incorrect Milk Temperature:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Milk that’s too hot or too cold will affect both taste and mouthfeel.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Wrong Ratio:'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Adding too much milk turns the drink into a flat white or latte, while too little leaves it closer to a straight espresso.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+              listType: bullet
+              direction: null
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Cortado vs. Other Coffee Drinks
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: table
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Drink
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 1
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Espresso
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 1
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Milk
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 1
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Foam
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 1
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Glass Size
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 1
+                      backgroundColor: null
+                  direction: null
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Cortado
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 1
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 1 part
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 1 part (steamed, little/no foam)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Minimal
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 4–5 oz
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                  direction: null
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Cappuccino
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 1 part
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 1 part (steamed)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 1 part (thick foam)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 6 oz
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                  direction: null
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Flat White
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 1 part (double shot)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 2 parts (steamed, microfoam)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Thin layer
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 5–6 oz
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                  direction: null
+                - type: tablerow
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Latte
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 1 part
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 3+ parts (steamed)
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: Light foam
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                    - type: tablecell
+                      format: ''
+                      indent: 0
+                      colSpan: 1
+                      rowSpan: 1
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 8–12 oz
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+                      headerState: 0
+                      backgroundColor: null
+                  direction: null
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    While the cortado shares similarities with drinks like the
+                    flat white and cappuccino, its defining features are the
+                    equal espresso-to-milk ratio and the minimal foam. This
+                    creates a drink that’s stronger than a latte but smoother
+                    than a straight espresso—perfect for those who appreciate
+                    balance and nuance in their coffee.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Conclusion
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Brewing the perfect cortado is all about precision and
+                    respect for the ingredients. By focusing on the right ratio,
+                    milk texture, and quality espresso, you can enjoy a taste of
+                    Spanish coffee culture in your own home. Salud!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    excerpt:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The cortado is a beloved coffee drink that strikes the
+                    perfect balance between rich espresso and just the right
+                    amount of steamed milk. Originating from Spain, this simple
+                    yet elegant beverage is cherished by coffee lovers for its
+                    bold flavor that remains smooth and approachable. Its
+                    minimalist preparation highlights the essence of quality
+                    coffee, making it a favorite for those who appreciate both
+                    strength and subtlety in their cup.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    category:
+      type: select
+      value: lifestyle
+    readingTime:
+      type: number
+      value: 5
+    metaKeywords:
+      type: text
+      value: >-
+        cortado, how to make cortado, espresso drinks, coffee brewing, Spanish
+        coffee, steamed milk, coffee guide
+    featuredImage:
+      type: asset
+      value:
+        - _id: b45db2bd-9df9-42d5-85ae-55e803ab0eaf
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://images.unsplash.com/photo-1519532059956-a63a37af5deb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww&ixlib=rb-4.1.0&q=85
+            title:
+              type: text
+              value: Cortado
+            width:
+              type: number
+              value: 3456
+            custom:
+              type: object
+              value:
+                color: '#594026'
+                apiUrl: >-
+                  https://api.unsplash.com/photos/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-eSzClaMXNkk
+                blurHash: LGCY:XD*R.$$bbR*xaWB0LkWxCR+
+                sourceId: eSzClaMXNkk
+                createdAt: '2018-02-25T04:16:39Z'
+                detailUrl: >-
+                  https://unsplash.com/photos/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-eSzClaMXNkk
+                updatedAt: '2025-10-19T15:32:59Z'
+                authorName: Ben Moreland
+                downloadUrl: >-
+                  https://unsplash.com/photos/eSzClaMXNkk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww
+                photoRawUrl: >-
+                  https://images.unsplash.com/photo-1519532059956-a63a37af5deb?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww&ixlib=rb-4.1.0
+                photoFullUrl: >-
+                  https://images.unsplash.com/photo-1519532059956-a63a37af5deb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww&ixlib=rb-4.1.0&q=85
+                photoSmallUrl: >-
+                  https://images.unsplash.com/photo-1519532059956-a63a37af5deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww&ixlib=rb-4.1.0&q=80&w=400
+                photoThumbUrl: >-
+                  https://images.unsplash.com/photo-1519532059956-a63a37af5deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww&ixlib=rb-4.1.0&q=80&w=200
+                authorUsername: relentlessjpg
+                photoRegularUrl: >-
+                  https://images.unsplash.com/photo-1519532059956-a63a37af5deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww&ixlib=rb-4.1.0&q=80&w=1080
+                authorProfileUrl: https://unsplash.com/@relentlessjpg
+                downloadLocation: >-
+                  https://api.unsplash.com/photos/eSzClaMXNkk/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxfHxjb3J0YWRvfGVufDB8fHx8MTc2MDkwMDkzN3ww
+                authorProfileImage: >-
+                  https://images.unsplash.com/profile-1613537610349-3035868348ddimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+            height:
+              type: number
+              value: 5184
+            description:
+              type: text
+              value: Photo by Ben Moreland on Unsplash
+          _source: unisplash-7525b8ea-cd19-402d-9044-3d025999dbc1
+    publishedDate:
+      type: date
+      value: '2025-10-19'
+    metaDescription:
+      type: text
+      value: >-
+        Master the art of making a cortado at home with our step-by-step guide.
+        Learn the perfect espresso-to-milk ratio, steaming methods, and expert
+        tips for this classic Spanish coffee drink.
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

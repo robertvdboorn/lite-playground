@@ -1,0 +1,97 @@
+composition:
+  _name: InRiver Multi Select
+  _id: 835a43ae-f777-4c8f-9201-74ca464163e3
+  type: cardGrid
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Our Products
+  slots:
+    cards:
+      - _id: cb2da89a-b37a-4a74-91b7-c54f1205e908
+        type: $loop
+        slots:
+          body:
+            - _id: 48017668-1430-4ab0-b6e9-daf5657f46e8
+              type: imageFeature
+              slots:
+                cta:
+                  - _id: 1bbc92c2-f2bf-44ce-9b0d-9691174c0974
+                    type: cta
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: >-
+                            /${locale}/articles/${#jptr:/Uniform Articles Query
+                            Content entries Loop Item/entityId}
+                          type: projectMapNode
+                          nodeId: 39f084ef-83c6-4ed5-8203-cbe347a6dae7
+                          projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+                          dynamicInputValues:
+                            slug: >-
+                              ${#jptr:/Uniform Articles Query Content entries
+                              Loop Item/entityId}
+                            locale: ${locale}
+                      text:
+                        type: text
+                        locales:
+                          en-US: Learn More
+                      style:
+                        type: select
+                        value: primary
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 3c22b481-5cfc-4c60-b579-e736395126d1
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            ${#jptr:/Uniform Articles Query Content entries Loop
+                            Item/values/productimage}
+                      _source: custom-url
+                title:
+                  type: text
+                  locales:
+                    en-US: >-
+                      ${#jptr:/Uniform Articles Query Content entries Loop
+                      Item/values/modelname}
+                description:
+                  type: text
+                  locales:
+                    en-US: >-
+                      By ${#jptr:/Uniform Articles Query Content entries Loop
+                      Item/values/brand}
+              _overridability:
+                hideLockedParameters: true
+        _dataResources:
+          Uniform Articles Query Content entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Multiple Coffee makers Content:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Multiple Coffee makers Content:
+      type: multipleCoffeeMakers
+      variables:
+        ids: '[7759,7760,7761]'
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      title: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-18T08:43:18.451944+00:00'
+modified: '2025-10-18T08:46:50.935765+00:00'
+pattern: true
+previewImageUrl: https://i.imgur.com/ehkC4pB.png
+categoryId: 4c555eac-0c3e-40ac-b297-6bf564bed3ef

@@ -1,0 +1,550 @@
+created: '2025-10-18T09:30:12.277019+00:00'
+modified: '2025-10-18T09:31:41.035946+00:00'
+pattern: false
+entry:
+  _id: b524e441-75b8-494a-b789-3df3902fcea3
+  _name: How to Take Care of Your Espresso Maker
+  _slug: how-to-take-care-of-your-espresso-maker
+  _thumbnail: >-
+    https://assets.lummi.ai/assets/Qmb6v4huC7T8oDFJuNHeZY3ZhK7meXMApn7NK2bQUJVDiv?auto=format&w=1500&h=1500
+  type: article
+  fields:
+    tags:
+      type: multi-select
+      value:
+        - Espresso
+        - Coffee Makers
+        - Accessories
+    title:
+      type: text
+      locales:
+        en-US: How to Take Care of Your Espresso Maker
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-b524e441-75b8-494a-b789-3df3902fcea3-author/entries/0}
+    content:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Introduction
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A well-maintained espresso maker is the secret to
+                      consistently great coffee. Regular cleaning and care not
+                      only improve taste but also extend the life of your
+                      machine. Here’s how to keep your espresso maker running
+                      smoothly.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 1. Daily Cleaning
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Empty the portafilter and grounds basket
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' after each use.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Rinse and wipe
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' the portafilter, basket, and group head with warm water.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Purge the steam wand
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' by running steam for a few seconds, then wipe with a damp cloth.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 2. Weekly Maintenance
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Backflush the machine
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' (if your model supports it) with water, and use a cleaning solution as recommended by the manufacturer.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Soak removable parts
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' like the portafilter and basket in warm, soapy water.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Clean the drip tray and water reservoir
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' thoroughly.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 3. Descale Regularly
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Descale your espresso maker
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' every 1–3 months, depending on water hardness and usage. Use a descaling solution or follow your manufacturer’s instructions.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4. Check and Replace Parts
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Inspect gaskets and filters
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' for wear and replace as needed.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Check the steam wand tip
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' for milk residue and clean it with a pin if clogged.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 5. Use Fresh, Filtered Water
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Always use fresh, filtered water
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' to prevent mineral buildup and improve coffee flavor.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                listType: bullet
+                direction: null
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Conclusion
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Taking care of your espresso maker doesn’t have to be
+                      complicated. With a simple routine, you’ll enjoy better
+                      coffee and a machine that lasts for years.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    excerpt:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Discover the key steps to properly maintain your espresso
+                      maker, helping you enjoy consistently delicious coffee
+                      while extending the life of your machine.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    category:
+      type: select
+      value: lifestyle
+    readingTime:
+      type: number
+      value: 4
+    metaKeywords:
+      type: text
+      value: >-
+        espresso, coffee maker, cleaning, maintenance, tutorial, accessories,
+        home barista
+    featuredImage:
+      type: asset
+      value:
+        - _id: ba482791-0cd8-4ad2-8f67-c944d0bbaf81
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://assets.lummi.ai/assets/Qmb6v4huC7T8oDFJuNHeZY3ZhK7meXMApn7NK2bQUJVDiv?auto=format&w=1500&h=1500
+            title:
+              type: text
+              value: Barista Steaming Milk
+            width:
+              type: number
+              value: 4096
+            custom:
+              type: object
+              value:
+                tags:
+                  - espresso machine
+                  - barista
+                  - coffee preparation
+                  - green tiles
+                  - steaming milk
+                blurhash: eCCF|uac4n4._2_2-;0KD*%LkCWWt6M{M|My%LkDt7IVf5s.kCofRj
+                sourceId: a94da55e-4504-4a86-bed7-b6939d640aed
+                imageType: photo
+                authorName: Amino
+                categories:
+                  - People at Work
+                  - Food and Drink
+                aspectRatio: 1
+                orientation: square
+                colorPalette:
+                  '0':
+                    hex: '#403321'
+                    weight: 0.372802734375
+                  '1':
+                    hex: '#44350f'
+                    weight: 0.214599609375
+                  '2':
+                    hex: '#120b03'
+                    weight: 0.1875
+                  '3':
+                    hex: '#9a8c7a'
+                    weight: 0.1279296875
+                  '4':
+                    hex: '#d3c9bc'
+                    weight: 0.09716796875
+                selectedSize: original
+                originalWidth: 4096
+                attributionUrl: >-
+                  https://www.lummi.ai/photo/barista-steaming-milk-8iaea?utm_source=api&utm_campaign=api&utm_medium=referral
+                originalHeight: 4096
+                authorProfileUrl: >-
+                  https://www.lummi.ai/creator/amino?utm_source=api&utm_campaign=api&utm_medium=referral
+                dominantColorGroup: stone700
+                dominantColorWeight: 0.372802734375
+            height:
+              type: number
+              value: 4096
+            description:
+              type: text
+              value: Barista Steaming Milk - AI-generated image by Amino on Lummi
+          _source: lummi-9bed3bbc-6464-4e11-807b-0d72dbfa4f4e
+    publishedDate:
+      type: date
+      value: '2025-10-18'
+    metaDescription:
+      type: text
+      locales:
+        en-US: >-
+          Discover easy steps to clean and maintain your espresso maker for
+          better-tasting coffee and a longer-lasting machine. Keep your espresso
+          maker in top condition with these simple tips.
+  _dataResources:
+    ref-b524e441-75b8-494a-b789-3df3902fcea3-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 168c2f5a-cddb-411b-864c-47ea0de22c55
+  _locales:
+    - en-US

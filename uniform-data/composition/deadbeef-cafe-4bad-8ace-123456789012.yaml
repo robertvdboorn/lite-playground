@@ -1,0 +1,9 @@
+composition:
+  _name: Best Espresso Maker Guide
+  _id: deadbeef-cafe-4bad-8ace-123456789012
+  type: page
+  _overridability:
+    hideLockedParameters: true
+created: '2025-10-19T12:24:43.566868+00:00'
+modified: '2025-10-19T12:24:43.566868+00:00'
+pattern: false

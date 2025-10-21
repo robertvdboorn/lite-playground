@@ -1,0 +1,22 @@
+id: multipleCoffeeMakers
+displayName: Multiple Coffee makers
+ttl: 30
+body: '{"entityIds": ${ids}, "objects": "EntitySummary,FieldValues"}'
+path: /api/v1.0.1/entities:fetchdata
+custom:
+  imageField: productimage
+  displayField: modelname
+  proposedName: Multiple Entities
+  allowedContentTypes:
+    - coffeemakers
+method: POST
+purgeKey: 44dac9c3-1bab-4947-b46e-235592e1d0df
+archetype: multiEntity
+variables:
+  ids:
+    type: text
+    default: '[]'
+    helpText: JSON-serialized array of numbers
+    displayName: Entity IDs
+dataSourceId: inriver
+allowedOnComponents: []
