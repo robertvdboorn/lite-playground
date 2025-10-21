@@ -33,7 +33,7 @@ const nextConfig: NextConfig = {
   },
   i18n: {
     locales: [
-      // English variants
+      // English variants (9) - Major markets
       "en-US", // English (United States)
       "en-GB", // English (United Kingdom)
       "en-CA", // English (Canada)
@@ -44,7 +44,7 @@ const nextConfig: NextConfig = {
       "en-IN", // English (India)
       "en-SG", // English (Singapore)
       
-      // Spanish variants
+      // Spanish variants (12) - Major markets
       "es-ES", // Spanish (Spain)
       "es-MX", // Spanish (Mexico)
       "es-AR", // Spanish (Argentina)
@@ -53,47 +53,40 @@ const nextConfig: NextConfig = {
       "es-PE", // Spanish (Peru)
       "es-VE", // Spanish (Venezuela)
       "es-EC", // Spanish (Ecuador)
-      "es-GT", // Spanish (Guatemala)
-      "es-CU", // Spanish (Cuba)
-      "es-BO", // Spanish (Bolivia)
-      "es-DO", // Spanish (Dominican Republic)
-      "es-HN", // Spanish (Honduras)
-      "es-PY", // Spanish (Paraguay)
-      "es-SV", // Spanish (El Salvador)
-      "es-NI", // Spanish (Nicaragua)
       "es-CR", // Spanish (Costa Rica)
       "es-PA", // Spanish (Panama)
       "es-UY", // Spanish (Uruguay)
+      "es-DO", // Spanish (Dominican Republic)
       
-      // French variants
+      // French variants (5)
       "fr-FR", // French (France)
       "fr-CA", // French (Canada)
       "fr-BE", // French (Belgium)
       "fr-CH", // French (Switzerland)
       "fr-LU", // French (Luxembourg)
       
-      // German variants
+      // German variants (5)
       "de-DE", // German (Germany)
       "de-AT", // German (Austria)
       "de-CH", // German (Switzerland)
       "de-LU", // German (Luxembourg)
       "de-LI", // German (Liechtenstein)
       
-      // Portuguese variants
+      // Portuguese variants (4)
       "pt-BR", // Portuguese (Brazil)
       "pt-PT", // Portuguese (Portugal)
       "pt-AO", // Portuguese (Angola)
       "pt-MZ", // Portuguese (Mozambique)
       
-      // Italian variants
+      // Italian variants (2)
       "it-IT", // Italian (Italy)
       "it-CH", // Italian (Switzerland)
       
-      // Dutch variants
+      // Dutch variants (2)
       "nl-NL", // Dutch (Netherlands)
       "nl-BE", // Dutch (Belgium)
       
-      // Nordic languages
+      // Nordic languages (8)
       "sv-SE", // Swedish (Sweden)
       "sv-FI", // Swedish (Finland)
       "da-DK", // Danish (Denmark)
@@ -103,7 +96,7 @@ const nextConfig: NextConfig = {
       "nn-NO", // Norwegian Nynorsk (Norway)
       "is-IS", // Icelandic (Iceland)
       
-      // Slavic languages
+      // Slavic languages (10)
       "pl-PL", // Polish (Poland)
       "ru-RU", // Russian (Russia)
       "uk-UA", // Ukrainian (Ukraine)
@@ -113,21 +106,19 @@ const nextConfig: NextConfig = {
       "hr-HR", // Croatian (Croatia)
       "sr-RS", // Serbian (Serbia)
       "sl-SI", // Slovenian (Slovenia)
-      "mk-MK", // Macedonian (North Macedonia)
       "be-BY", // Belarusian (Belarus)
       
-      // Baltic languages
+      // Baltic languages (3)
       "et-EE", // Estonian (Estonia)
       "lv-LV", // Latvian (Latvia)
       "lt-LT", // Lithuanian (Lithuania)
       
-      // Asian languages
+      // Asian languages (15) - Major markets
       "ja-JP", // Japanese (Japan)
       "ko-KR", // Korean (South Korea)
       "zh-CN", // Chinese Simplified (China)
       "zh-TW", // Chinese Traditional (Taiwan)
       "zh-HK", // Chinese Traditional (Hong Kong)
-      "zh-SG", // Chinese Simplified (Singapore)
       "hi-IN", // Hindi (India)
       "th-TH", // Thai (Thailand)
       "vi-VN", // Vietnamese (Vietnam)
@@ -136,67 +127,29 @@ const nextConfig: NextConfig = {
       "tl-PH", // Tagalog (Philippines)
       "bn-BD", // Bengali (Bangladesh)
       "ta-IN", // Tamil (India)
-      "te-IN", // Telugu (India)
-      "mr-IN", // Marathi (India)
       "ur-PK", // Urdu (Pakistan)
       "km-KH", // Khmer (Cambodia)
-      "lo-LA", // Lao (Laos)
-      "my-MM", // Burmese (Myanmar)
-      "ne-NP", // Nepali (Nepal)
-      "si-LK", // Sinhala (Sri Lanka)
       
-      // Middle Eastern & Central Asian
+      // Middle Eastern & Central Asian (10) - Major markets
       "ar-SA", // Arabic (Saudi Arabia)
       "ar-AE", // Arabic (United Arab Emirates)
       "ar-EG", // Arabic (Egypt)
       "ar-MA", // Arabic (Morocco)
-      "ar-DZ", // Arabic (Algeria)
-      "ar-TN", // Arabic (Tunisia)
-      "ar-LY", // Arabic (Libya)
       "ar-JO", // Arabic (Jordan)
-      "ar-IQ", // Arabic (Iraq)
       "ar-KW", // Arabic (Kuwait)
-      "ar-BH", // Arabic (Bahrain)
       "ar-QA", // Arabic (Qatar)
-      "ar-OM", // Arabic (Oman)
-      "ar-YE", // Arabic (Yemen)
-      "ar-SY", // Arabic (Syria)
-      "ar-LB", // Arabic (Lebanon)
-      "ar-PS", // Arabic (Palestine)
       "he-IL", // Hebrew (Israel)
       "tr-TR", // Turkish (Turkey)
       "fa-IR", // Persian (Iran)
-      "az-AZ", // Azerbaijani (Azerbaijan)
-      "ka-GE", // Georgian (Georgia)
-      "hy-AM", // Armenian (Armenia)
-      "kk-KZ", // Kazakh (Kazakhstan)
-      "uz-UZ", // Uzbek (Uzbekistan)
       
-      // African languages
-      "sw-KE", // Swahili (Kenya)
-      "sw-TZ", // Swahili (Tanzania)
-      "am-ET", // Amharic (Ethiopia)
-      "ha-NG", // Hausa (Nigeria)
-      "yo-NG", // Yoruba (Nigeria)
-      "ig-NG", // Igbo (Nigeria)
-      "zu-ZA", // Zulu (South Africa)
-      "af-ZA", // Afrikaans (South Africa)
-      
-      // Other European languages
+      // Other European languages (7)
       "el-GR", // Greek (Greece)
-      "el-CY", // Greek (Cyprus)
       "ro-RO", // Romanian (Romania)
       "hu-HU", // Hungarian (Hungary)
-      "sq-AL", // Albanian (Albania)
-      "mt-MT", // Maltese (Malta)
+      "ca-ES", // Catalan (Spain)
+      "eu-ES", // Basque (Spain)
       "ga-IE", // Irish (Ireland)
       "cy-GB", // Welsh (United Kingdom)
-      "eu-ES", // Basque (Spain)
-      "ca-ES", // Catalan (Spain)
-      "gl-ES", // Galician (Spain)
-      
-      // Constructed/Special
-      "eo", // Esperanto
     ],
     defaultLocale: "en-US",
   },
