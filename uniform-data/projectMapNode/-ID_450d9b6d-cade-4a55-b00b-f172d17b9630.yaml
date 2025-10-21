@@ -1,0 +1,10 @@
+id: 450d9b6d-cade-4a55-b00b-f172d17b9630
+name: Product
+order: 600
+path: /:locale/products/:ID
+type: composition
+pathSegment: ':ID'
+data:
+  previewValue: CM003
+compositionId: 368f28ee-3721-49ae-9b8e-cefc54dee9ff
+projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

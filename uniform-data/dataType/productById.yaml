@@ -1,0 +1,22 @@
+id: productById
+displayName: Product By ID
+ttl: 30
+body: >-
+  {"systemCriteria":[{"type":"EntityTypeId","value":"coffeemakers","operator":"Equal"}],"dataCriteria":[{"fieldTypeId":"productid","value":"${fieldValue}","operator":"Equal"}]}
+path: /api/v1.0.0/query
+custom:
+  searchField: productid
+  displayField: modelname
+  proposedName: Entities By Field
+  allowedContentTypes:
+    - coffeemakers
+method: POST
+purgeKey: b49f225b-f74e-4ff7-9e0a-2eed5eb031ba
+archetype: entitiesByField
+variables:
+  fieldValue:
+    type: text
+    default: ''
+    displayName: Field Value
+dataSourceId: inriver
+allowedOnComponents: []

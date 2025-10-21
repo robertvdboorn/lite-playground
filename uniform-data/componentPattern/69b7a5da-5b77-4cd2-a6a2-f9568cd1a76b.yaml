@@ -1,0 +1,90 @@
+composition:
+  _name: Inriver XL CTA
+  _id: 69b7a5da-5b77-4cd2-a6a2-f9568cd1a76b
+  type: contentHero
+  parameters:
+    image:
+      type: asset
+      value:
+        - _id: 8a17b80e-68bd-41ef-b4c4-42653ef750b4
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Single Coffee maker Content/0/values/productimage}
+          _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Single Coffee maker Content/0/values/modelname}
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: variable
+                    version: 1
+                    reference: '#jptr:/Single Coffee maker Content/0/values/description'
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    imagePosition:
+      type: select
+      value: right
+  slots:
+    cta:
+      - _id: 4d998a05-ca88-4626-ae56-d0bbe94cc87c
+        type: cta
+        parameters:
+          link:
+            type: link
+            value:
+              path: >-
+                /${locale}/products/${#jptr:/Single Coffee maker
+                Content/0/values/productid}
+              type: projectMapNode
+              nodeId: 450d9b6d-cade-4a55-b00b-f172d17b9630
+              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+              dynamicInputValues:
+                ID: ${#jptr:/Single Coffee maker Content/0/values/productid}
+                locale: ${locale}
+          text:
+            type: text
+            locales:
+              en-US: View product
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            style: 'yes'
+          hideLockedParameters: true
+  _dataResources:
+    Single Coffee maker Content:
+      type: singleCoffeeMaker
+      variables:
+        id: '7759'
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      image: 'yes'
+      title: 'yes'
+      description: 'yes'
+      imagePosition: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-21T17:28:01.142967+00:00'
+modified: '2025-10-21T17:41:29.670534+00:00'
+pattern: true

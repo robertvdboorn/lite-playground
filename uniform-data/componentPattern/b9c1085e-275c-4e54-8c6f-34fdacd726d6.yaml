@@ -12,6 +12,8 @@ composition:
       value: right
   _overridability:
     parameters:
+      $viz: 'yes'
+      image: 'yes'
       title: 'yes'
       description: 'yes'
       imagePosition: 'yes'
@@ -19,5 +21,5 @@ composition:
   _locales:
     - en-US
 created: '2025-10-21T10:16:39.55689+00:00'
-modified: '2025-10-21T10:16:39.55689+00:00'
+modified: '2025-10-21T16:54:08.791421+00:00'
 pattern: true

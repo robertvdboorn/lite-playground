@@ -4,7 +4,7 @@ composition:
   _slug: /
   type: page
   _overrides:
-    1d796ef3-3b30-4da0-b16e-e8c542243688:
+    220cd382-adf4-474e-8904-dd1ecc84e199:
       dataResources:
         Single Coffee maker Content:
           type: singleCoffeeMaker
@@ -33,6 +33,67 @@ composition:
             uiFilters: >-
               [{"field":"type","operator":"eq","value":"article"},{"field":"fields.title","operator":"match","value":"espresso"}]
             contentTypes: article
+    fd4884f1-50ee-4853-b7c3-17b0cc92051a:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: a5d7eb6d-3e5d-4ecd-970d-842b171a0f32
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: >-
+                    https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=85
+                title:
+                  type: text
+                  value: Snowy mountains rise from the ocean at sunrise.
+                width:
+                  type: number
+                  value: 5794
+                custom:
+                  type: object
+                  value:
+                    color: '#59738c'
+                    apiUrl: >-
+                      https://api.unsplash.com/photos/snowy-mountains-rise-from-the-ocean-at-sunrise-IHfbPJYsnsI
+                    blurHash: LUDc|9kERiWV%ij]t7bH0LofWAay
+                    sourceId: IHfbPJYsnsI
+                    createdAt: '2025-10-05T14:51:36Z'
+                    detailUrl: >-
+                      https://unsplash.com/photos/snowy-mountains-rise-from-the-ocean-at-sunrise-IHfbPJYsnsI
+                    updatedAt: '2025-10-21T16:36:12Z'
+                    authorName: Jonny Gios
+                    downloadUrl: >-
+                      https://unsplash.com/photos/IHfbPJYsnsI/download?ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA
+                    photoRawUrl: >-
+                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0
+                    photoFullUrl: >-
+                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=85
+                    photoSmallUrl: >-
+                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=80&w=400
+                    photoThumbUrl: >-
+                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=80&w=200
+                    authorUsername: supergios
+                    photoRegularUrl: >-
+                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=80&w=1080
+                    authorProfileUrl: https://unsplash.com/@supergios
+                    downloadLocation: >-
+                      https://api.unsplash.com/photos/IHfbPJYsnsI/download?ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA
+                    authorProfileImage: >-
+                      https://images.unsplash.com/profile-1600184424687-de96bd61fa67image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                height:
+                  type: number
+                  value: 3360
+                focalPoint:
+                  type: focalPoint
+                  value:
+                    x: 0.04
+                    'y': 0.25
+                description:
+                  type: text
+                  value: Photo by Jonny Gios on Unsplash
+              _source: unisplash-7525b8ea-cd19-402d-9044-3d025999dbc1
     45f97431-3075-4477-9e46-c3947f4a6bab|bea24f96-81cb-4cd0-ba68-f82bcf404627:
       slots:
         $slotSectionItems:
@@ -165,8 +226,8 @@ composition:
                       focalPoint:
                         type: focalPoint
                         value:
-                          x: 0.2
-                          'y': 0.07
+                          x: 0.59
+                          'y': 0.65
                       description:
                         type: text
                         value: >-
@@ -266,6 +327,17 @@ composition:
               parameters:
                 title: 'yes'
               hideLockedParameters: true
+          - _id: fd4884f1-50ee-4853-b7c3-17b0cc92051a
+            type: contentHero
+            _pattern: b9c1085e-275c-4e54-8c6f-34fdacd726d6
+            _overridability:
+              parameters:
+                $viz: 'yes'
+                image: 'yes'
+                title: 'yes'
+                description: 'yes'
+                imagePosition: 'yes'
+              hideLockedParameters: true
           - _id: cd31abee-21b4-460c-96be-1dd4c22a2883
             type: cardGrid
             slots:
@@ -306,9 +378,9 @@ composition:
               title:
                 type: text
                 value: Our Ship to Sip standards
-          - _id: 1d796ef3-3b30-4da0-b16e-e8c542243688
-            type: imageFeature
-            _pattern: 14213b88-5916-486a-91e2-8d7ad7903ac4
+          - _id: 220cd382-adf4-474e-8904-dd1ecc84e199
+            type: contentHero
+            _pattern: 69b7a5da-5b77-4cd2-a6a2-f9568cd1a76b
             _dataResources:
               Single Coffee maker Content:
                 type: singleCoffeeMaker
@@ -317,6 +389,10 @@ composition:
             _overridability:
               parameters:
                 $viz: 'yes'
+                image: 'yes'
+                title: 'yes'
+                description: 'yes'
+                imagePosition: 'yes'
               hideLockedParameters: true
           - _id: ede311f9-b6b9-4724-8bfe-52abe4404087
             type: text
@@ -334,5 +410,5 @@ composition:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-09-18T12:09:47.99461+00:00'
-modified: '2025-10-19T19:17:54.104853+00:00'
+modified: '2025-10-21T17:51:33.474879+00:00'
 pattern: false

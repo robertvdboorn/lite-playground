@@ -1,0 +1,114 @@
+composition:
+  _name: Article (copy)
+  _id: 368f28ee-3721-49ae-9b8e-cefc54dee9ff
+  _slug: ':article-copy'
+  type: page
+  _dataResources:
+    Product By ID Content:
+      type: productById
+      variables:
+        fieldValue: ${ID}
+  _overrides:
+    368f28ee-3721-49ae-9b8e-cefc54dee9ff:
+      parameters:
+        pageTitle:
+          type: text
+          locales:
+            en-US: ${#jptr:/Product By ID Content/0/values/modelname}
+        metaKeywords:
+          type: text
+          locales:
+            en-US: null
+        metaDescription:
+          type: text
+          locales:
+            en-US: ${#jptr:/Product By ID Content/0/values/description}
+    368f28ee-3721-49ae-9b8e-cefc54dee9ff|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: 22f95cbc-9098-4fbc-830e-51109465924a
+            type: articleHeader
+            parameters:
+              title:
+                type: text
+                locales:
+                  en-US: ${#jptr:/Product By ID Content/0/values/modelname}
+              excerpt:
+                type: richText
+                locales:
+                  en-US:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - mode: normal
+                              text: 'From '
+                              type: text
+                              style: ''
+                              detail: 0
+                              format: 0
+                              version: 1
+                            - type: variable
+                              version: 1
+                              reference: '#jptr:/Product By ID Content/0/values/brand'
+                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
+                      direction: ltr
+              featuredImage:
+                type: asset
+                value:
+                  - _id: 4d143fb9-df33-4bfc-9ce0-1a7f5d59540c
+                    type: image
+                    fields:
+                      url:
+                        type: text
+                        value: ${#jptr:/Product By ID Content/0/values/productimage}
+                    _source: custom-url
+          - _id: 8c18eb0e-92ed-4be9-a91c-e4fce02d6d67
+            type: articleContent
+            parameters:
+              content:
+                type: richText
+                locales:
+                  en-US:
+                    root:
+                      type: root
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - type: paragraph
+                          format: ''
+                          indent: 0
+                          version: 1
+                          children:
+                            - type: variable
+                              version: 1
+                              reference: >-
+                                #jptr:/Product By ID
+                                Content/0/values/description
+                          direction: null
+                          textStyle: ''
+                          textFormat: 0
+                      direction: null
+          - _id: d442d6cd-25b7-4849-bbe7-424ce726c00e
+            type: articleTags
+            parameters:
+              tagsLabel:
+                type: text
+                locales:
+                  en-US: Tags
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-10-21T17:34:19.530728+00:00'
+modified: '2025-10-21T17:39:41.148543+00:00'
+pattern: false

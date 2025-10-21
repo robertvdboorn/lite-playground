@@ -10,7 +10,8 @@ A clean, elegant Next.js starter project integrated with [Uniform](https://unifo
 - **⚡ Performance**: Optimized for speed and SEO with image transformations
 - **🧩 Component Library**: Reusable, well-documented components with variants
 - **📚 Content Management**: Structured Article and Author content types
-- **🖼️ Asset Optimization**: Automatic image resizing and optimization
+- **🖼️ Asset Optimization**: Multi-CDN image support (Uniform, Cloudinary, Unsplash) with focal points
+- **🌍 Internationalization**: 92+ locale support ready for global content
 - **🎮 Component Playground**: Interactive sandbox for testing and learning
 - **🎓 Educational**: Extensive code comments for learning
 - **🔧 Developer Experience**: TypeScript, ESLint, and modern tooling
@@ -40,6 +41,7 @@ A clean, elegant Next.js starter project integrated with [Uniform](https://unifo
 
 #### **📄 Content Components**
 - **`Section`** - Versatile content section with 6 variants (hero, content, feature, testimonial, callout, minimal)
+- **`ContentHero`** - Hero section with title, description, and CTA buttons
 - **`Text`** - Simple text content component
 - **`RichText`** - Advanced rich text content with formatting
 - **`CTA`** - Call-to-action buttons with styling options
@@ -60,7 +62,15 @@ A clean, elegant Next.js starter project integrated with [Uniform](https://unifo
 - **`ArticleTags`** - Display article tags with editable labels
 - **`ArticleAuthor`** - Author bio with avatar and social links
 
-#### **🧩 Navigation Components**
+#### **🧩 Interactive Components**
+- **`Accordion`** - Collapsible sections for FAQs and progressive disclosure
+- **`AccordionItem`** - Individual collapsible items with smooth animations
+- **`Carousel`** - Image/content carousel with navigation
+- **`CarouselSlide`** - Individual carousel slides
+- **`Tabs`** - Tabbed interface for organized content
+- **`TabPanel`** - Individual tab panels with content
+
+#### **🧭 Navigation Components**
 - **`NavigationLink`** - Smart navigation links (desktop/mobile aware)
 - **`FooterNavLink`** - Simple footer navigation links
 
@@ -105,10 +115,10 @@ npx uniform sync push
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your site.
+Open [http://localhost:3222](http://localhost:3222) to see your site.
 
 5. **Access the component playground:**
-Visit [http://localhost:3000/uniform-playground](http://localhost:3000/uniform-playground) to test components in a sandbox environment with responsive design tools.
+Visit [http://localhost:3222/uniform-playground](http://localhost:3222/uniform-playground) to test components in a sandbox environment with responsive design tools.
 
 ## 🎯 Development Commands
 
@@ -146,6 +156,8 @@ src/
 ├── styles/             # Global styles
 ├── uniformContext/     # Uniform context configuration
 └── utilities/          # Canvas clients and utilities
+    ├── canvas/         # Uniform canvas utilities
+    └── imageTransform.ts  # Multi-CDN image transformation
 uniform-data/           # Uniform project data (components, content types, etc.)
 ```
 
@@ -185,6 +197,11 @@ The project includes structured content types for rich content management:
 - Component pattern support for content reuse
 - Responsive design with device-specific visibility rules
 - Performance optimization with automatic asset transformations
+- Multi-CDN image support with focal point handling:
+  - **Uniform Assets** - Native Uniform asset transformation
+  - **Cloudinary** - Full transformation API with focal points
+  - **Unsplash** - Imgix-based transformations with smart cropping
+- Internationalization with 92+ locale support (Vercel-optimized)
 
 ## 📚 Learning Resources
 
@@ -199,14 +216,14 @@ Every component includes extensive documentation:
 ### **Key Concepts Demonstrated**
 - **React Patterns**: Hooks, Context, Component composition
 - **TypeScript**: Interface definitions, type safety
-- **Uniform CMS**: Component registration, slots, parameters, content types
+- **Uniform CMS**: Component registration, slots, parameters, content types, component patterns
 - **Content Architecture**: Structured content with Article and Author types
 - **Component Modularity**: Breaking complex components into focused modules
-- **Asset Management**: Optimized image handling with transformations
-- **Responsive Design**: Mobile-first, Tailwind CSS
-- **Performance**: Image optimization, code splitting
-- **Accessibility**: ARIA labels, semantic HTML, alt text
-- **Internationalization**: Editable text labels for multi-language support
+- **Asset Management**: Multi-CDN image handling with focal points and transformations
+- **Responsive Design**: Mobile-first, Tailwind CSS, device-aware components
+- **Performance**: Image optimization, code splitting, automatic format detection
+- **Accessibility**: ARIA labels, semantic HTML, alt text, keyboard navigation
+- **Internationalization**: 92+ locale routing with Next.js i18n
 
 ## 🚀 Deployment
 
