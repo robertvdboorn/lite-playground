@@ -31,3 +31,6 @@ export { default as Video, type VideoProps } from './media/Video';
 export { Accordion, AccordionItem, type AccordionProps, type AccordionItemProps } from './ui/Accordion';
 export { Carousel, CarouselSlide, type CarouselProps, type CarouselSlideProps } from './ui/Carousel';
 export { Tabs, TabPanel, type TabsProps, type TabPanelProps } from './ui/Tabs';
+
+// === FORM COMPONENTS ===
+export { default as Form, type FormProps } from './form/Form';

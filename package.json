@@ -17,6 +17,7 @@
     "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.2.3",
+    "@supabase/supabase-js": "^2.76.1",
     "@uniformdev/assets": "^20.39.1-alpha.3",
     "@uniformdev/canvas": "20.39.1-alpha.3",
     "@uniformdev/canvas-next": "20.39.1-alpha.3",
@@ -35,7 +36,8 @@
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "tailwind-merge": "^3.3.1",
-    "tw-animate-css": "^1.3.6"
+    "tw-animate-css": "^1.3.6",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
