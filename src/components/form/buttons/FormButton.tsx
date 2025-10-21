@@ -1,15 +1,13 @@
 import React from 'react';
 import { registerUniformComponent } from '@uniformdev/canvas-react';
+import { Button } from '@/components/ui/Button';
 
 function FormButton({ label, type }: { label: string; type: 'submit' | 'reset' | 'button' }) {
   return (
-    <div>
-      <button
-        type={type}
-        className="bg-primary hover:bg-stone-900 text-white hover:text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline"
-      >
+    <div className="mt-6">
+      <Button type={type} size="lg">
         {label}
-      </button>
+      </Button>
     </div>
   );
 }

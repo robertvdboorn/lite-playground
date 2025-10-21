@@ -4,6 +4,7 @@ import { useFormContext } from '../context/FormContext';
 import { sanitizeName } from '../helpers';
 import { v4 as uuidv4 } from 'uuid';
 import { NumericInputType } from '../form-types';
+import { Input } from '@/components/ui/Input';
 
 function FormNumericField({
   name,
@@ -32,11 +33,11 @@ function FormNumericField({
   };
 
   return (
-    <div className="mb-4">
-      <label htmlFor={identifier} className="block text-sm font-medium text-black">
-        {label}
+    <div className="mb-6">
+      <label htmlFor={identifier} className="block text-sm font-medium text-foreground mb-2">
+        {label} {required && <span className="text-destructive">*</span>}
       </label>
-      <input
+      <Input
         id={identifier}
         name={identifier}
         placeholder={placeholder}
@@ -47,7 +48,7 @@ function FormNumericField({
         step={step}
         value={formData[identifier]?.value || ''}
         onChange={handleChange}
-        className="mt-1 block w-full px-3 py-2 bg-white border text-gray-700 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        aria-invalid={required && !formData[identifier]?.value}
       />
     </div>
   );

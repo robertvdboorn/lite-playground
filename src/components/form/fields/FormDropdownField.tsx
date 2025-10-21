@@ -4,6 +4,7 @@ import { useFormContext } from '../context/FormContext';
 import { sanitizeName } from '../helpers';
 import { v4 as uuidv4 } from 'uuid';
 import { DropdownOption } from '../form-types';
+import { cn } from '@/lib/utils';
 
 function FormDropdownField({
   name,
@@ -24,9 +25,9 @@ function FormDropdownField({
   };
 
   return (
-    <div className="mb-4">
-      <label htmlFor={identifier} className="block text-sm font-medium text-black">
-        {label}
+    <div className="mb-6">
+      <label htmlFor={identifier} className="block text-sm font-medium text-foreground mb-2">
+        {label} {required && <span className="text-destructive">*</span>}
       </label>
       <select
         id={identifier}
@@ -34,7 +35,13 @@ function FormDropdownField({
         required={required}
         value={formData[identifier]?.value || ''}
         onChange={handleChange}
-        className="mt-1 block w-full pl-3 pr-10 py-2 text-base text-gray-700 border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+        aria-invalid={required && !formData[identifier]?.value}
+        className={cn(
+          "border-input dark:bg-input/30 flex h-9 w-full rounded-full border bg-transparent px-4 py-1 text-base shadow-xs transition-all duration-300 outline-none",
+          "focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]",
+          "aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+          "hover:shadow-lg disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+        )}
       >
         {options?.map((option, index) => {
           const { fields } = option;
