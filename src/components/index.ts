@@ -3,6 +3,7 @@ export { default as Header, type HeaderProps } from './layout/header/Header';
 export { default as NavigationLink, type NavigationLinkProps } from './layout/header/NavigationLink';
 export { default as Footer } from './layout/footer/Footer';
 export { default as FooterNavLink } from './layout/footer/FooterNavLink';
+export { default as Container, type ContainerProps } from './layout/Container';
 
 // === CONTENT COMPONENTS ===
 export { default as Section, type SectionProps } from './content/Section';

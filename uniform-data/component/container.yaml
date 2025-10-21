@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: container
+name: Container
+icon: screen
+parameters:
+  - id: maxWidth
+    name: Max Width
+    type: select
+    guidance: >-
+      Controls the maximum width of the container. Use 'sm' for narrow forms,
+      'lg' for most content, '2xl' for articles.
+    typeConfig:
+      options:
+        - text: Small (384px) - Narrow forms, sidebars
+          value: sm
+        - text: Medium (448px) - Forms, cards
+          value: md
+        - text: Large (512px) - Default, good for most content
+          value: lg
+        - text: Extra Large (576px) - Wider forms
+          value: xl
+        - text: 2X Large (672px) - Articles, blog posts
+          value: 2xl
+        - text: Full Width - No width constraint
+          value: full
+      required: false
+  - id: centerContent
+    name: Center Content
+    type: checkbox
+    guidance: Centers the container horizontally on the page
+    typeConfig:
+      required: false
+  - id: noPadding
+    name: No Padding
+    type: checkbox
+    guidance: Removes responsive horizontal padding from the container
+    typeConfig:
+      required: false
+description: >-
+  A layout container that wraps content and controls its maximum width. Perfect
+  for forms, articles, and focused content areas.
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - form
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+canBeComposition: false
+created: '2025-10-21T22:28:20.357306+00:00'
+updated: '2025-10-21T22:29:11.851602+00:00'

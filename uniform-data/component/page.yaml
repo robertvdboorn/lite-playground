@@ -72,6 +72,7 @@ slots:
       - accordion
       - contentHero
       - form
+      - container
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -82,4 +83,4 @@ slots:
     inheritAllowedComponents: false
 canBeComposition: true
 created: '2025-09-18T12:09:44.832999+00:00'
-updated: '2025-10-21T22:06:18.995148+00:00'
+updated: '2025-10-21T22:28:59.033858+00:00'
