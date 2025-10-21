@@ -71,6 +71,7 @@ slots:
       - carousel
       - accordion
       - contentHero
+      - form
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -81,4 +82,4 @@ slots:
     inheritAllowedComponents: false
 canBeComposition: true
 created: '2025-09-18T12:09:44.832999+00:00'
-updated: '2025-10-21T16:53:30.641651+00:00'
+updated: '2025-10-21T22:06:18.995148+00:00'
