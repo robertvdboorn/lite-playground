@@ -22,8 +22,10 @@ export const getAllChildrenIds = (component?: ComponentInstance): string[] => {
   Object.values(slots).forEach((slotComponents) => {
     if (Array.isArray(slotComponents)) {
       slotComponents.forEach((child) => {
-        // Add this child's ID
-        ids.push(child._id);
+        // Add this child's ID (if it exists)
+        if (child._id) {
+          ids.push(child._id);
+        }
         
         // Recursively get IDs from this child's children
         ids.push(...getAllChildrenIds(child));

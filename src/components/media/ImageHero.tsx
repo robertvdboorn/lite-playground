@@ -6,6 +6,7 @@ import {
   UniformSlot,
   registerUniformComponent,
 } from "@uniformdev/canvas-react";
+import { imageFrom } from "@uniformdev/assets"; // Uniform asset processing
 import type { AssetParamValue } from "@uniformdev/assets";
 
 export interface ImageHeroProps {
@@ -58,9 +59,13 @@ export const ImageHero: React.FC<ImageHeroProps> = ({
   
   // Generate optimized background image URL with high resolution
   // For background images, we don't crop - let CSS handle it to respect focal point positioning
-  const baseUrl = firstAsset?.fields?.url?.value;
-  const imageUrl = baseUrl 
-    ? `${baseUrl}?width=2560&fit=scale-down` 
+  const imageUrl = firstAsset
+    ? imageFrom(firstAsset)
+        .transform({ 
+          width: 2560,
+          fit: "scale-down"
+        })
+        .url()
     : undefined;
 
   // Extract focal point for CSS positioning

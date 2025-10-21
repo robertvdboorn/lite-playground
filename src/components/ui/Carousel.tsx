@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
   UniformSlot,
   registerUniformComponent,
@@ -34,7 +34,7 @@ export const CarouselSlide: React.FC<CarouselSlideProps> = ({
   className = "",
 }) => {
   return (
-    <div className={cn("w-full flex-shrink-0", className)}>
+    <div className={cn("w-full flex-shrink-0", className)} data-carousel-slide>
       <UniformSlot name="content" />
     </div>
   );
@@ -83,7 +83,22 @@ export const Carousel: React.FC<CarouselProps> = ({ className = "", component })
     const slides = component?.slots?.slides || [];
     setSlideComponents(slides);
     setSlideCount(slides.length);
-  }, [component]);
+
+    // In editor mode, apply visibility to slides directly (editor adds wrapper elements)
+    // In preview/production mode, clear any inline styles to let CSS transform work
+    setTimeout(() => {
+      const slideElements = document.querySelectorAll('[data-carousel-slide]');
+      slideElements.forEach((el, index) => {
+        if (isContextualEditing) {
+          // Editor mode: show/hide using display
+          (el as HTMLElement).style.display = index === currentSlide ? 'block' : 'none';
+        } else {
+          // Preview/production mode: clear inline styles, let flex + transform work
+          (el as HTMLElement).style.display = '';
+        }
+      });
+    }, 0);
+  }, [component, currentSlide, isContextualEditing]);
 
   // Auto-navigate to selected slide in editor
   useEffect(() => {
@@ -120,8 +135,13 @@ export const Carousel: React.FC<CarouselProps> = ({ className = "", component })
           <div className="relative overflow-hidden">
             <div
               data-carousel-slides
-              className="flex transition-transform duration-500 ease-in-out"
-              style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+              className={cn(
+                "transition-transform duration-500 ease-in-out",
+                isContextualEditing ? "block" : "flex"
+              )}
+              style={{ 
+                transform: isContextualEditing ? undefined : `translateX(-${currentSlide * 100}%)` 
+              }}
             >
               <UniformSlot name="slides" />
             </div>
