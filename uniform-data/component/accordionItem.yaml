@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: accordionItem
+name: Accordion Item
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Question or section heading, e.g. 'What is your refund policy?'
+    localizable: true
+  - id: content
+    name: Content
+    type: richText
+    guidance: Answer or detailed explanation. Can be multiple paragraphs.
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: defaultOpen
+    name: Default Open
+    type: checkbox
+    guidance: Check to have this item expanded by default
+description: >-
+  A single collapsible item within an Accordion with title and rich text
+  content.
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-10-21T10:59:27.317004+00:00'
+updated: '2025-10-21T10:59:27.317004+00:00'

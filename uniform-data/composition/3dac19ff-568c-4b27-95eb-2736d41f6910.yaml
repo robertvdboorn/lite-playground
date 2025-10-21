@@ -1,0 +1,35 @@
+composition:
+  _name: Example
+  _id: 3dac19ff-568c-4b27-95eb-2736d41f6910
+  _slug: example
+  type: page
+  _overrides:
+    3dac19ff-568c-4b27-95eb-2736d41f6910|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: f3b465a0-cf7c-4d24-adf9-090ec668ea3d
+            type: accordion
+            _pattern: fcf561d4-46ab-4ff9-a7fd-46b66a1ebfd5
+            _overridability:
+              parameters:
+                title: 'yes'
+                description: 'yes'
+              hideLockedParameters: true
+          - _id: 1adcc88a-269e-4bc5-9653-3fedc79dba9b
+            type: carousel
+            _pattern: 5a2f19b8-aef4-4405-8b07-13f62304c3b0
+            _overridability:
+              hideLockedParameters: true
+          - _id: ce4563a4-f36f-46b8-a2f0-6058ff55f8df
+            type: tabs
+            _pattern: ea5de56c-5dca-43eb-a549-56db8e2f2510
+            _overridability:
+              parameters:
+                title: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-10-21T11:06:05.938276+00:00'
+modified: '2025-10-21T11:07:46.659814+00:00'
+pattern: false

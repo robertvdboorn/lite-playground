@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: carousel
+name: Carousel
+icon: screen
+parameters: []
+description: >-
+  An interactive carousel/slider for showcasing multiple pieces of content with
+  navigation controls.
+useTeamPermissions: true
+slots:
+  - id: slides
+    name: Slides
+    minComponents: 1
+    allowedComponents:
+      - carouselSlide
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+canBeComposition: false
+created: '2025-10-21T10:59:28.471084+00:00'
+updated: '2025-10-21T10:59:28.471084+00:00'

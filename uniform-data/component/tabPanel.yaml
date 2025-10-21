@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: tabPanel
+name: Tab Panel
+icon: screen
+parameters:
+  - id: label
+    name: Label
+    type: text
+    guidance: Tab label text, e.g. 'Overview', 'Specifications', 'Reviews'
+    localizable: true
+description: >-
+  A single tab panel with label and content. The label appears in the tab
+  navigation.
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    minComponents: 1
+    allowedComponents:
+      - text
+      - richText
+      - image
+      - video
+      - cta
+      - cardGrid
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: label
+canBeComposition: false
+created: '2025-10-21T10:59:35.55788+00:00'
+updated: '2025-10-21T10:59:35.55788+00:00'

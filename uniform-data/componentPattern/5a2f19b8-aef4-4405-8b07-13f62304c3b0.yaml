@@ -1,0 +1,55 @@
+composition:
+  _name: Product Showcase Carousel
+  _id: 5a2f19b8-aef4-4405-8b07-13f62304c3b0
+  type: carousel
+  slots:
+    slides:
+      - _id: b9851fa6-01a9-487c-82a2-846e550d3899
+        type: carouselSlide
+        slots:
+          content:
+            - _id: bfd81a68-e52d-4cbb-851a-9591c951565a
+              type: imageHero
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Premium Quality Products
+              _overridability:
+                parameters:
+                  title: 'yes'
+      - _id: 41ffd5d3-9883-42ef-a523-a603a308aabb
+        type: carouselSlide
+        slots:
+          content:
+            - _id: 01e9ebb6-4d9d-447e-be1f-49fcd98e499a
+              type: imageHero
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Exceptional Customer Service
+              _overridability:
+                parameters:
+                  title: 'yes'
+      - _id: 361dc2dc-4c77-4a76-9c3b-36ae56231523
+        type: carouselSlide
+        slots:
+          content:
+            - _id: 5d3810d1-4fe2-4ddf-9ae3-34dedc7d3534
+              type: imageHero
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Fast & Free Shipping
+              _overridability:
+                parameters:
+                  title: 'yes'
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-21T11:04:49.75613+00:00'
+modified: '2025-10-21T11:08:38.474438+00:00'
+pattern: true

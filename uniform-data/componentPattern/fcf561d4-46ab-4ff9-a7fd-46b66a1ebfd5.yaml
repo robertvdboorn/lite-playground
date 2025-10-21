@@ -1,0 +1,46 @@
+composition:
+  _name: FAQ Example
+  _id: fcf561d4-46ab-4ff9-a7fd-46b66a1ebfd5
+  type: accordion
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Frequently Asked Questions
+    description:
+      type: text
+      locales:
+        en-US: Find answers to common questions about our products and services
+  slots:
+    items:
+      - _id: 69d6b453-04ba-495b-89af-a45895168d24
+        type: accordionItem
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: What payment methods do you accept?
+      - _id: 5da9acd4-e929-4fdb-a504-9994c3afbd8f
+        type: accordionItem
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: How long does shipping take?
+      - _id: 10583b94-677e-448e-b3c0-1ecd97c61723
+        type: accordionItem
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: What is your return policy?
+  _overridability:
+    parameters:
+      title: 'yes'
+      description: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-21T11:00:22.293359+00:00'
+modified: '2025-10-21T11:04:24.637351+00:00'
+pattern: true

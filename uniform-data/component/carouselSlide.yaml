@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: carouselSlide
+name: Carousel Slide
+icon: screen
+parameters: []
+description: A single slide within the Carousel. Add any components to the content slot.
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    maxComponents: 5
+    minComponents: 1
+    allowedComponents:
+      - image
+      - imageHero
+      - contentHero
+      - text
+      - richText
+      - cta
+      - card
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+canBeComposition: false
+created: '2025-10-21T10:59:31.162441+00:00'
+updated: '2025-10-21T10:59:31.162441+00:00'

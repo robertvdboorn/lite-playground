@@ -26,3 +26,8 @@ export { default as Image, type ImageProps } from './media/Image';
 export { default as ImageFeature, type ImageFeatureProps } from './media/ImageFeature';
 export { default as ImageHero, type ImageHeroProps } from './media/ImageHero';
 export { default as Video, type VideoProps } from './media/Video';
+
+// === INTERACTIVE COMPONENTS ===
+export { Accordion, AccordionItem, type AccordionProps, type AccordionItemProps } from './ui/Accordion';
+export { Carousel, CarouselSlide, type CarouselProps, type CarouselSlideProps } from './ui/Carousel';
+export { Tabs, TabPanel, type TabsProps, type TabPanelProps } from './ui/Tabs';

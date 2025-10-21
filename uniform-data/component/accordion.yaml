@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: accordion
+name: Accordion
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main heading for the accordion section, e.g. 'Frequently Asked Questions'
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Optional subtitle or description below the title
+    localizable: true
+description: >-
+  A container for collapsible sections, perfect for FAQs or any content that
+  benefits from progressive disclosure.
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    minComponents: 1
+    allowedComponents:
+      - accordionItem
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-10-21T10:59:24.235439+00:00'
+updated: '2025-10-21T10:59:24.235439+00:00'

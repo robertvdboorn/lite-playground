@@ -1,0 +1,71 @@
+composition:
+  _name: Feature Tabs
+  _id: ea5de56c-5dca-43eb-a549-56db8e2f2510
+  type: tabs
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Explore Our Features
+  slots:
+    panels:
+      - _id: 754df737-cf98-4700-81df-5d0e4b2a80a6
+        type: tabPanel
+        slots:
+          content:
+            - _id: 27d19d7d-6d97-4deb-9a3f-bdf676619ed1
+              type: richText
+              _overridability:
+                parameters:
+                  content: 'yes'
+        parameters:
+          label:
+            type: text
+            locales:
+              en-US: Overview
+        _overridability:
+          parameters:
+            label: 'yes'
+      - _id: ee5ea2be-f712-4e93-846a-3eb92fb16dac
+        type: tabPanel
+        slots:
+          content:
+            - _id: 79777938-9bc6-43f6-aa2b-d6fe6f709702
+              type: richText
+              _overridability:
+                parameters:
+                  content: 'yes'
+        parameters:
+          label:
+            type: text
+            locales:
+              en-US: Specifications
+        _overridability:
+          parameters:
+            label: 'yes'
+      - _id: f59d6096-78a0-442f-8b20-7ab83ad1f125
+        type: tabPanel
+        slots:
+          content:
+            - _id: c83657ea-4202-49a5-8476-b71eb3dec336
+              type: richText
+              _overridability:
+                parameters:
+                  content: 'yes'
+        parameters:
+          label:
+            type: text
+            locales:
+              en-US: Reviews
+        _overridability:
+          parameters:
+            label: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2025-10-21T11:04:56.108468+00:00'
+modified: '2025-10-21T11:08:58.539558+00:00'
+pattern: true

@@ -71,7 +71,7 @@ export const ImageHero: React.FC<ImageHeroProps> = ({
 
   return (
     <section 
-      className={`relative py-32 px-6 text-center text-white overflow-hidden ${className}`}
+      className={`relative py-32 px-6 text-center overflow-hidden ${className}`}
       style={{
         backgroundImage: imageUrl ? `url('${imageUrl}')` : undefined,
         backgroundSize: 'cover',
@@ -79,17 +79,19 @@ export const ImageHero: React.FC<ImageHeroProps> = ({
         backgroundRepeat: 'no-repeat',
       }}
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
-      
       {/* Fallback background if no image */}
       {!imageUrl && (
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-700" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700" />
+      )}
+      
+      {/* Overlay for images only */}
+      {imageUrl && (
+        <div className="absolute inset-0 bg-black/40" />
       )}
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
           <UniformText
             placeholder="Hero title goes here"
             parameterId="title"
@@ -97,7 +99,7 @@ export const ImageHero: React.FC<ImageHeroProps> = ({
           />
         </h1>
         
-        <div className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90">
+        <div className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90 text-white">
           <UniformRichText
             placeholder="Hero description goes here"
             parameterId="description"

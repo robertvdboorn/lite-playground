@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: tabs
+name: Tabs
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main heading above the tabs, e.g. 'Explore Our Features'
+    localizable: true
+description: >-
+  An interactive tabs component for organizing content into separate panels that
+  can be switched between.
+useTeamPermissions: true
+slots:
+  - id: panels
+    name: Panels
+    minComponents: 2
+    allowedComponents:
+      - tabPanel
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-10-21T10:59:33.362515+00:00'
+updated: '2025-10-21T10:59:33.362515+00:00'
