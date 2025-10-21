@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { UniformSlot } from '@uniformdev/canvas-react';
+import { UniformSlot, registerUniformComponent } from '@uniformdev/canvas-react';
 import { FormProvider, useFormContext } from './context/FormContext';
 import { FormElement, FormEventAction, FormSetQuirkActionFields } from './form-types';
 import type { ComponentInstance } from '@uniformdev/canvas';
@@ -137,6 +137,10 @@ export const Form: React.FC<FormProps> = ({
   );
 };
 
-// NOTE: Uniform registration happens in form/index.ts
+// UNIFORM REGISTRATION
+registerUniformComponent({
+  type: "form",
+  component: Form,
+});
 
 export default Form;

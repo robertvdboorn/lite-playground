@@ -1,4 +1,5 @@
 import React from 'react';
+import { registerUniformComponent } from '@uniformdev/canvas-react';
 
 function FormButton({ label, type }: { label: string; type: 'submit' | 'reset' | 'button' }) {
   return (
@@ -12,5 +13,11 @@ function FormButton({ label, type }: { label: string; type: 'submit' | 'reset' |
     </div>
   );
 }
+
+// UNIFORM REGISTRATION
+registerUniformComponent({
+  type: "formButton",
+  component: FormButton,
+});
 
 export default FormButton;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { registerUniformComponent } from '@uniformdev/canvas-react';
 import { useFormContext } from '../context/FormContext';
 import { sanitizeName } from '../helpers';
 import { v4 as uuidv4 } from 'uuid';
@@ -28,5 +29,11 @@ function FormColorField({ name, label, required = false }: { name?: string; labe
     </div>
   );
 }
+
+// UNIFORM REGISTRATION
+registerUniformComponent({
+  type: "formColorField",
+  component: FormColorField,
+});
 
 export default FormColorField;

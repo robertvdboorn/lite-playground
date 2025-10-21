@@ -1,4 +1,5 @@
 import React from 'react';
+import { registerUniformComponent } from '@uniformdev/canvas-react';
 import { useFormContext } from '../context/FormContext';
 import { sanitizeName } from '../helpers';
 import { v4 as uuidv4 } from 'uuid';
@@ -38,5 +39,11 @@ function FormDateField({
     </div>
   );
 }
+
+// UNIFORM REGISTRATION
+registerUniformComponent({
+  type: "formDateField",
+  component: FormDateField,
+});
 
 export default FormDateField;

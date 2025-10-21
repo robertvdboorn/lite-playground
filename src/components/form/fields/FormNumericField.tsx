@@ -1,4 +1,5 @@
 import React from 'react';
+import { registerUniformComponent } from '@uniformdev/canvas-react';
 import { useFormContext } from '../context/FormContext';
 import { sanitizeName } from '../helpers';
 import { v4 as uuidv4 } from 'uuid';
@@ -51,5 +52,11 @@ function FormNumericField({
     </div>
   );
 }
+
+// UNIFORM REGISTRATION
+registerUniformComponent({
+  type: "formNumericField",
+  component: FormNumericField,
+});
 
 export default FormNumericField;
