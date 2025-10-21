@@ -146,19 +146,21 @@ function buildUniformUrl(
       .url();
   } else if (options.height) {
     // With height specified
+    const fitMode = options.fit || "cover";
     return imageFrom(asset)
       .transform({
         width: options.width,
         height: options.height,
-        fit: (options.fit || "cover") as any,
+        fit: fitMode as "cover" | "contain" | "scale-down",
       })
       .url();
   } else {
     // Width only (scale-down mode)
+    const fitMode = options.fit || "scale-down";
     return imageFrom(asset)
       .transform({
         width: options.width,
-        fit: (options.fit || "scale-down") as any,
+        fit: fitMode as "cover" | "contain" | "scale-down",
       })
       .url();
   }
