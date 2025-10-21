@@ -13,8 +13,8 @@ interface TransformOptions {
 /**
  * Transform an image URL with focal point support
  * 
- * Handles both Unsplash images (using Imgix parameters) and Uniform images
- * (using Uniform's transform API).
+ * Handles Unsplash images (using Imgix parameters), Cloudinary images,
+ * and Uniform images (using Uniform's transform API).
  * 
  * @param asset - Uniform asset parameter value
  * @param options - Transform options (width, height, fit, focal point, etc.)
@@ -36,6 +36,21 @@ export function getTransformedImageUrl(
       source: baseUrl,
       transformed: transformedUrl,
       options,
+    });
+    return transformedUrl;
+  }
+
+  // Check if this is a Cloudinary image
+  if (baseUrl.includes('res.cloudinary.com')) {
+    // Extract original dimensions from the asset for accurate focal point calculation
+    const originalWidth = asset.fields?.width?.value;
+    const originalHeight = asset.fields?.height?.value;
+    const transformedUrl = buildCloudinaryUrl(baseUrl, options, originalWidth, originalHeight);
+    console.log('[Image Transform] Cloudinary image:', {
+      source: baseUrl,
+      transformed: transformedUrl,
+      options,
+      originalDimensions: { width: originalWidth, height: originalHeight },
     });
     return transformedUrl;
   }
@@ -113,6 +128,109 @@ function buildUnsplashUrl(
   url.searchParams.set("auto", "format");
   
   return url.toString();
+}
+
+/**
+ * Build Cloudinary URL with transformation parameters
+ * 
+ * Cloudinary URLs follow the pattern:
+ * https://res.cloudinary.com/{cloud_name}/image/upload/{transformations}/{public_id}.{format}
+ */
+function buildCloudinaryUrl(
+  rawUrl: string,
+  options: TransformOptions,
+  originalWidth?: number,
+  originalHeight?: number
+): string {
+  console.log('[buildCloudinaryUrl] Input:', { rawUrl, options, originalWidth, originalHeight });
+  
+  // Parse the Cloudinary URL
+  // Example: https://res.cloudinary.com/demo/image/upload/v1234567/sample.jpg
+  const urlPattern = /^(https?:\/\/res\.cloudinary\.com\/[^\/]+\/[^\/]+\/[^\/]+)\/(.+)$/;
+  const match = rawUrl.match(urlPattern);
+  
+  if (!match) {
+    console.warn('[buildCloudinaryUrl] Invalid Cloudinary URL format');
+    return rawUrl;
+  }
+  
+  const [, baseUrlPath, assetPath] = match;
+  
+  // Build transformation parameters
+  const transformations: string[] = [];
+  
+  // Determine crop/resize mode
+  const fit = options.fit || "cover";
+  if (options.height) {
+    // When both dimensions are specified
+    if (fit === "cover") {
+      transformations.push("c_fill");
+    } else if (fit === "contain") {
+      transformations.push("c_fit");
+    } else if (fit === "scale-down") {
+      transformations.push("c_limit");
+    }
+  } else {
+    // Only width specified
+    if (fit === "scale-down") {
+      transformations.push("c_limit");
+    } else {
+      transformations.push("c_scale");
+    }
+  }
+  
+  // Add dimensions
+  transformations.push(`w_${options.width}`);
+  if (options.height) {
+    transformations.push(`h_${options.height}`);
+  }
+  
+  // Handle gravity/focal point
+  if (options.focal) {
+    if (typeof options.focal === "object") {
+      // Custom focal point coordinates (0-1)
+      // Only use g_xy_center if we have original dimensions for pixel-based positioning
+      if (originalWidth && originalHeight) {
+        transformations.push("g_xy_center");
+        const x = Math.round(originalWidth * options.focal.x);
+        const y = Math.round(originalHeight * options.focal.y);
+        transformations.push(`x_${x}`);
+        transformations.push(`y_${y}`);
+      } else {
+        // Without original dimensions, fall back to auto gravity
+        // g_xy_center requires pixel coordinates, not percentages
+        console.warn('[buildCloudinaryUrl] No original dimensions available for focal point, falling back to g_auto');
+        transformations.push("g_auto");
+      }
+    } else if (options.focal === "center") {
+      transformations.push("g_center");
+    } else if (options.focal === "auto") {
+      transformations.push("g_auto");
+    }
+  } else if (fit === "cover" && options.height) {
+    // Default to auto gravity for fill mode
+    transformations.push("g_auto");
+  }
+  
+  // Set quality
+  if (options.quality) {
+    transformations.push(`q_${options.quality}`);
+  }
+  
+  // Set device pixel ratio
+  if (options.dpr) {
+    transformations.push(`dpr_${options.dpr}`);
+  }
+  
+  // Auto format for optimal delivery
+  transformations.push("f_auto");
+  
+  // Construct the final URL
+  const transformationString = transformations.join(',');
+  const finalUrl = `${baseUrlPath}/${transformationString}/${assetPath}`;
+  
+  console.log('[buildCloudinaryUrl] Output:', { transformationString, finalUrl });
+  return finalUrl;
 }
 
 /**
