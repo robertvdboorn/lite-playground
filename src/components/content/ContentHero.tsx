@@ -7,6 +7,7 @@ import {
 } from "@uniformdev/canvas-react";
 import NextImage from "next/image";
 import type { AssetParamValue } from "@uniformdev/assets";
+import { getTransformedImageUrl } from "@/utilities/imageTransform";
 
 export interface ContentHeroProps {
   className?: string;
@@ -51,11 +52,13 @@ export const ContentHero: React.FC<ContentHeroProps> = ({
   
   // Generate optimized image URL with focal point support
   const focalPoint = firstAsset?.fields?.focalPoint?.value;
-  const baseUrl = firstAsset?.fields?.url?.value;
-  const focalParam = focalPoint ? `${focalPoint.x}x${focalPoint.y}` : "center";
-  const imageUrl = baseUrl 
-    ? `${baseUrl}?width=1200&height=900&fit=cover&focal=${focalParam}` 
-    : undefined;
+  const imageUrl = getTransformedImageUrl(firstAsset, {
+    width: 1200,
+    height: 900,
+    fit: "cover",
+    focal: focalPoint || "center",
+    quality: 85,
+  });
 
   // Extract alt text for accessibility
   const imageAlt = firstAsset?.fields?.description?.value || 

@@ -7,8 +7,8 @@ import {
 } from "@uniformdev/canvas-react";
 import { Card, CardContent } from "../ui/card"; // Consistent card styling
 import Image from "next/image"; // Next.js optimized images
-import { imageFrom } from "@uniformdev/assets"; // Uniform asset processing
 import type { AssetParamValue } from "@uniformdev/assets";
+import { getTransformedImageUrl } from "@/utilities/imageTransform";
 
 export interface ImageFeatureProps {
   className?: string;
@@ -56,25 +56,14 @@ export const ImageFeature: React.FC<ImageFeatureProps> = ({
   
   // Generate optimized image URL for small icon display
   const focalPoint = firstAsset?.fields?.focalPoint?.value;
-  const imageUrl = firstAsset
-    ? imageFrom(firstAsset)
-        .transform(
-          focalPoint
-            ? {
-                width: 192,
-                height: 192,
-                fit: "cover" as const,
-                focal: focalPoint,
-              }
-            : {
-                width: 192,
-                height: 192,
-                fit: "cover" as const,
-                focal: "center" as const,
-              }
-        )
-        .url()
-    : undefined;
+  const imageUrl = getTransformedImageUrl(firstAsset, {
+    width: 192,
+    height: 192,
+    fit: "cover",
+    focal: focalPoint || "center",
+    quality: 85,
+    dpr: 2, // 2x for retina displays
+  });
 
   // Extract alt text for accessibility
   const imageAlt = firstAsset?.fields?.description?.value || 
