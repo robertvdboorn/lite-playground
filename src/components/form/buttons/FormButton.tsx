@@ -1,6 +1,6 @@
 import React from 'react';
 import { registerUniformComponent } from '@uniformdev/canvas-react';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 
 function FormButton({ label, type }: { label: string; type: 'submit' | 'reset' | 'button' }) {
   return (

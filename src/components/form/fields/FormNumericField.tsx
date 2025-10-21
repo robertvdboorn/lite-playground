@@ -4,7 +4,7 @@ import { useFormContext } from '../context/FormContext';
 import { sanitizeName } from '../helpers';
 import { v4 as uuidv4 } from 'uuid';
 import { NumericInputType } from '../form-types';
-import { Input } from '@/components/ui/Input';
+import { Input } from '@/components/ui/input';
 
 function FormNumericField({
   name,

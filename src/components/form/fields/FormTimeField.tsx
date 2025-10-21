@@ -3,7 +3,7 @@ import { registerUniformComponent } from '@uniformdev/canvas-react';
 import { useFormContext } from '../context/FormContext';
 import { sanitizeName } from '../helpers';
 import { v4 as uuidv4 } from 'uuid';
-import { Input } from '@/components/ui/Input';
+import { Input } from '@/components/ui/input';
 
 function FormTimeField({ name, label, required = false }: { name?: string; label?: string; required?: boolean }) {
   const { formData, handleInputChange } = useFormContext();

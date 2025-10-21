@@ -56,12 +56,10 @@ function FormRadioField({
                   required={required}
                   onChange={handleChange}
                   disabled={isDisabled}
-                  aria-invalid={required && !formData[identifier]?.value}
                   className={cn(
                     "border-input mt-0.5 size-4 cursor-pointer rounded-full border bg-transparent transition-all duration-200",
                     "checked:bg-ui-primary checked:border-ui-primary checked:ring-4 checked:ring-ui-primary/20",
                     "focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] focus-visible:outline-none",
-                    "aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
                     "disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50"
                   )}
                 />
