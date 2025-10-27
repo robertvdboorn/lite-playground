@@ -32,7 +32,7 @@ export function Header({ className = '' }: HeaderProps) {
     <>
       <header className={`sticky top-0 z-50 w-full bg-white border-b border-gray-200 ${className}`}>
         <div className="container mx-auto px-6">
-          <div className="flex h-16 items-center justify-between lg:justify-start lg:gap-8">
+          <div className="flex h-20 items-center justify-between lg:justify-start lg:gap-8">
             
             {/* Mobile Menu Button */}
             <Button
@@ -57,9 +57,9 @@ export function Header({ className = '' }: HeaderProps) {
               <Image
                 src="/VB.png"
                 alt="Logo"
-                width={120}
-                height={40}
-                className="h-8 w-auto"
+                width={180}
+                height={60}
+                className="h-12 w-auto"
                 priority
               />
             </Link>
