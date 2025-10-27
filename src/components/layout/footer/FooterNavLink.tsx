@@ -59,7 +59,7 @@ export const FooterNavLink: React.FC<FooterNavLinkProps> = ({
         placeholder="Link goes here"
         parameterId="text"
         as="span"
-        className="inline"
+        className="inline hover:text-white"
       />
       {/* Animated underline effect */}
       <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full" />
