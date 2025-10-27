@@ -11,24 +11,24 @@ export interface FooterNavLinkProps {
 }
 
 /**
- * Footer Navigation Link Component - Simple Footer Links
+ * Footer Navigation Link Component - Modern Footer Links
  * 
  * A lightweight navigation link component specifically designed for footer use.
- * Unlike the main NavigationLink, this component has simpler styling and
- * doesn't need mobile menu integration.
+ * Features enhanced styling to match the dark footer design with sophisticated
+ * hover effects and better visual hierarchy.
  * 
  * Features:
  * - Editable link text (UniformText)
  * - Simple link parameter
- * - Subtle hover effects
- * - Consistent footer styling
+ * - Elegant hover effects with underline
+ * - Dark theme styling
  * - Responsive text sizing
  * 
  * Styling:
- * - Small text size (text-sm)
- * - Muted colors (gray-600 → gray-900 on hover)
- * - Smooth transitions
- * - No button styling (just text links)
+ * - Medium text size (text-sm to text-base)
+ * - Light colors (gray-300 → white on hover)
+ * - Smooth transitions with underline effect
+ * - Modern, clean appearance
  * 
  * Common Use Cases:
  * - Privacy Policy links
@@ -48,7 +48,11 @@ export const FooterNavLink: React.FC<FooterNavLinkProps> = ({
   return (
     <Link 
       href={href} 
-      className={`block text-gray-600 hover:text-gray-900 text-sm transition-colors duration-300 ${className}`}
+      className={`
+        relative text-gray-300 hover:text-white text-sm md:text-base
+        transition-colors duration-300 group
+        ${className}
+      `.trim()}
     >
       {/* UNIFORM TEXT: Editable link text for footer navigation */}
       <UniformText
@@ -57,6 +61,8 @@ export const FooterNavLink: React.FC<FooterNavLinkProps> = ({
         as="span"
         className="inline"
       />
+      {/* Animated underline effect */}
+      <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full" />
     </Link>
   );
 };

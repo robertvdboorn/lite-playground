@@ -2,6 +2,8 @@ import React from 'react';
 import { Button } from '../../ui/button';
 import { useMobileMenu } from '../../../contexts/MobileMenuContext';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
 // Uniform imports for creating editable components
 import { UniformSlot, registerUniformComponent } from '@uniformdev/canvas-react';
 
@@ -13,6 +15,7 @@ export interface HeaderProps {
  * Header Component - Website Navigation
  * 
  * This is a responsive header that works with Uniform CMS:
+ * - Contains branded logo that links to homepage
  * - Contains UniformSlot for navigation links (editable in Uniform)
  * - Responsive: hamburger menu on mobile, horizontal nav on desktop
  * - Sticky header that stays at top when scrolling
@@ -29,7 +32,7 @@ export function Header({ className = '' }: HeaderProps) {
     <>
       <header className={`sticky top-0 z-50 w-full bg-white border-b border-gray-200 ${className}`}>
         <div className="container mx-auto px-6">
-          <div className="flex h-16 items-center justify-between">
+          <div className="flex h-16 items-center justify-between lg:justify-start lg:gap-8">
             
             {/* Mobile Menu Button */}
             <Button
@@ -45,8 +48,24 @@ export function Header({ className = '' }: HeaderProps) {
               }
             </Button>
 
+            {/* Logo - Center on mobile, left on desktop */}
+            <Link 
+              href="/" 
+              className="flex items-center lg:mr-8"
+              aria-label="Home"
+            >
+              <Image
+                src="/VB.png"
+                alt="Logo"
+                width={120}
+                height={40}
+                className="h-8 w-auto"
+                priority
+              />
+            </Link>
+
             {/* Desktop Navigation - Hidden on mobile, shown on large screens */}
-            <nav className="hidden lg:flex items-center space-x-1">
+            <nav className="hidden lg:flex items-center space-x-1 flex-1">
               {/* UNIFORM SLOT: This creates an editable area in Uniform where 
                   content authors can add NavigationLink components */}
               <UniformSlot name="navigationLinks" />

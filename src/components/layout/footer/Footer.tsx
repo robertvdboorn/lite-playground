@@ -9,15 +9,16 @@ export interface FooterProps {
 /**
  * Footer Component - Website Footer
  * 
- * A clean, minimal footer that provides essential navigation and copyright info.
- * This component uses a flexible layout that works well on all screen sizes.
+ * A modern, visually appealing footer with improved design and spacing.
+ * Features a darker color scheme for better contrast and visual hierarchy.
  * 
  * Features:
  * - Responsive layout (stacked on mobile, horizontal on desktop)
  * - UniformSlot for footer navigation links
  * - Editable copyright text
- * - Light background with subtle border
- * - Consistent spacing and typography
+ * - Dark, modern design with subtle gradients
+ * - Enhanced spacing and typography
+ * - Sophisticated visual effects
  * 
  * Layout Structure:
  * - Mobile: Links stacked above copyright (centered)
@@ -27,23 +28,26 @@ export interface FooterProps {
  * - footerLinks slot: For FooterNavLink components
  * - copyrightText: Editable copyright notice
  * 
- * This footer is designed to be unobtrusive while providing necessary
- * navigation and legal information.
+ * This footer provides a polished, professional finish to the page
+ * while maintaining excellent usability.
  */
 function Footer({ className = '' }: FooterProps) {
   return (
-    <footer className={`bg-gray-50 border-t border-gray-200 ${className}`}>
-      <div className="container mx-auto px-6 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+    <footer className={`relative bg-gradient-to-b from-gray-900 to-gray-950 border-t border-gray-800 ${className}`}>
+      {/* Subtle top accent line */}
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-500/20 to-transparent" />
+      
+      <div className="container mx-auto px-6 py-12">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12">
           
           {/* FOOTER NAVIGATION: Links to important pages */}
-          <nav className="flex flex-wrap items-center justify-center md:justify-start space-x-6">
+          <nav className="flex flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-3">
             {/* UNIFORM SLOT: Content authors can add FooterNavLink components here */}
             <UniformSlot name="footerLinks" />
           </nav>
 
           {/* COPYRIGHT TEXT: Editable legal/copyright information */}
-          <div className="text-sm text-gray-600">
+          <div className="text-sm text-gray-400 text-center md:text-right">
             <UniformText 
               parameterId="copyrightText" 
               placeholder="Copyright text goes here" 
