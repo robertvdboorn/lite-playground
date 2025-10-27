@@ -19,6 +19,8 @@ composition:
             type: carousel
             _pattern: 5a2f19b8-aef4-4405-8b07-13f62304c3b0
             _overridability:
+              parameters:
+                $viz: 'yes'
               hideLockedParameters: true
           - _id: ce4563a4-f36f-46b8-a2f0-6058ff55f8df
             type: tabs
@@ -27,9 +29,21 @@ composition:
               parameters:
                 title: 'yes'
               hideLockedParameters: true
+          - _id: 0e06dbf8-b445-4b83-b9b7-c57683329844
+            type: text
+            parameters:
+              content:
+                type: text
+                value: >-
+                  🎯 Try it now! Click on this text or any other text on the
+                  page to edit it directly. This sandbox demonstrates how
+                  Uniform empowers content teams to manage websites
+                  independently, while developers focus on building great
+                  components. Questions? Ask your Uniform representative about
+                  setting up your own project.
   _locales:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-10-21T11:06:05.938276+00:00'
-modified: '2025-10-21T11:07:46.659814+00:00'
+modified: '2025-10-24T07:35:57.564331+00:00'
 pattern: false

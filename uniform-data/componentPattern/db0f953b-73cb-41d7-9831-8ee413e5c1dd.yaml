@@ -22,22 +22,22 @@ composition:
               en-US: Home
         _overridability:
           hideLockedParameters: true
-      - _id: 3f97c16c-0d25-4c8c-90d9-d42c6632b2ef
+      - _id: 7addfb41-5ab6-4928-b7d0-de3358447896
         type: navigationLink
         parameters:
           linkUrl:
             type: link
             value:
-              path: /${locale}/images
+              path: /${locale}/products
               type: projectMapNode
-              nodeId: 86925a2f-efdb-484f-a1a2-cb5c9f49126f
+              nodeId: 879abfca-1cb2-48d4-a3de-3dd73f96fea2
               projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
               dynamicInputValues:
                 locale: ${locale}
           linkText:
             type: text
             locales:
-              en-US: Images
+              en-US: Products
         _overridability:
           hideLockedParameters: true
       - _id: d605f580-d4ba-4191-9191-422db879ec28
@@ -58,10 +58,28 @@ composition:
               en-US: Articles
         _overridability:
           hideLockedParameters: true
+      - _id: 3f97c16c-0d25-4c8c-90d9-d42c6632b2ef
+        type: navigationLink
+        parameters:
+          linkUrl:
+            type: link
+            value:
+              path: /${locale}/images
+              type: projectMapNode
+              nodeId: 86925a2f-efdb-484f-a1a2-cb5c9f49126f
+              projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+              dynamicInputValues:
+                locale: ${locale}
+          linkText:
+            type: text
+            locales:
+              en-US: Images
+        _overridability:
+          hideLockedParameters: true
   _overridability:
     hideLockedParameters: true
   _locales:
     - en-US
-created: '2025-09-18T10:42:04.115359+00:00'
-modified: '2025-09-18T15:10:26.310849+00:00'
+created: '2025-09-18T12:09:46.573037+00:00'
+modified: '2025-10-24T07:19:58.68965+00:00'
 pattern: true

@@ -4,7 +4,7 @@ composition:
   _slug: /
   type: page
   _overrides:
-    220cd382-adf4-474e-8904-dd1ecc84e199:
+    0966288e-8ca8-4aba-a373-fa29df737b85:
       dataResources:
         Single Coffee maker Content:
           type: singleCoffeeMaker
@@ -29,71 +29,11 @@ composition:
           variables:
             locale: ${locale}
             search: ''
-            filters: '{"type[eq]":"article","fields.title[match]":"espresso"}'
+            filters: '{"type[eq]":"article","fields.tags[in]":"Coffee Makers,Espresso"}'
             uiFilters: >-
-              [{"field":"type","operator":"eq","value":"article"},{"field":"fields.title","operator":"match","value":"espresso"}]
+              [{"field":"type","operator":"eq","value":"article"},{"field":"fields.tags","operator":"in","value":["Coffee
+              Makers","Espresso"]}]
             contentTypes: article
-    fd4884f1-50ee-4853-b7c3-17b0cc92051a:
-      parameters:
-        image:
-          type: asset
-          value:
-            - _id: a5d7eb6d-3e5d-4ecd-970d-842b171a0f32
-              type: image
-              fields:
-                url:
-                  type: text
-                  value: >-
-                    https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=85
-                title:
-                  type: text
-                  value: Snowy mountains rise from the ocean at sunrise.
-                width:
-                  type: number
-                  value: 5794
-                custom:
-                  type: object
-                  value:
-                    color: '#59738c'
-                    apiUrl: >-
-                      https://api.unsplash.com/photos/snowy-mountains-rise-from-the-ocean-at-sunrise-IHfbPJYsnsI
-                    blurHash: LUDc|9kERiWV%ij]t7bH0LofWAay
-                    sourceId: IHfbPJYsnsI
-                    createdAt: '2025-10-05T14:51:36Z'
-                    detailUrl: >-
-                      https://unsplash.com/photos/snowy-mountains-rise-from-the-ocean-at-sunrise-IHfbPJYsnsI
-                    updatedAt: '2025-10-21T16:36:12Z'
-                    authorName: Jonny Gios
-                    downloadUrl: >-
-                      https://unsplash.com/photos/IHfbPJYsnsI/download?ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA
-                    photoRawUrl: >-
-                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0
-                    photoFullUrl: >-
-                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=85
-                    photoSmallUrl: >-
-                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=80&w=400
-                    photoThumbUrl: >-
-                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=80&w=200
-                    authorUsername: supergios
-                    photoRegularUrl: >-
-                      https://images.unsplash.com/photo-1759675795062-a657fcb278b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA&ixlib=rb-4.1.0&q=80&w=1080
-                    authorProfileUrl: https://unsplash.com/@supergios
-                    downloadLocation: >-
-                      https://api.unsplash.com/photos/IHfbPJYsnsI/download?ixid=M3wzNzE5MzN8MHwxfGFsbHwxfHx8fHx8fHwxNzYxMDY1NjYxfA
-                    authorProfileImage: >-
-                      https://images.unsplash.com/profile-1600184424687-de96bd61fa67image?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
-                height:
-                  type: number
-                  value: 3360
-                focalPoint:
-                  type: focalPoint
-                  value:
-                    x: 0.04
-                    'y': 0.25
-                description:
-                  type: text
-                  value: Photo by Jonny Gios on Unsplash
-              _source: unisplash-7525b8ea-cd19-402d-9044-3d025999dbc1
     45f97431-3075-4477-9e46-c3947f4a6bab|bea24f96-81cb-4cd0-ba68-f82bcf404627:
       slots:
         $slotSectionItems:
@@ -160,80 +100,62 @@ composition:
               backgroundImage:
                 type: asset
                 value:
-                  - _id: 2e96d9af-8085-455a-9099-a79497388a87
+                  - _id: 9e1984b9-69f4-4f3e-bcaa-149c2e130b63
                     type: image
                     fields:
                       url:
                         type: text
                         value: >-
-                          https://assets.lummi.ai/assets/QmTmq44rR98dGvmSfyZyMTA1jvGx33omS3RTYkb9qo2464?auto=format&w=1500&h=1500
+                          https://images.unsplash.com/photo-1500898335608-a4b6696f81a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8YmFyaXN0YXxlbnwwfHx8fDE3NjEyOTEyMTd8MA&ixlib=rb-4.1.0&q=85
                       title:
                         type: text
-                        value: Barista Serving Coffee
+                        value: Masters At Reuben Hills
                       width:
                         type: number
-                        value: 5632
+                        value: 4575
                       custom:
                         type: object
                         value:
-                          tags:
-                            - Coffee
-                            - Hospitality
-                            - warm atmosphere
-                            - espresso machine
-                            - barista
-                          blurhash: >-
-                            eOGRbii_smNG%2~qr=M{oLR+xtD%RPtRR+%19ZM{%MxaI;n$WBt7kC
-                          sourceId: d6d71989-82de-4327-976d-aa8937c80d5a
-                          imageType: photo
-                          authorName: Amino
-                          categories:
-                            - People
-                            - Food and Drink
-                          aspectRatio: 1.833333333333333
-                          orientation: horizontal
-                          colorPalette:
-                            '0':
-                              hex: '#150c07'
-                              weight: 0.2558035714285714
-                            '1':
-                              hex: '#d6c7bb'
-                              weight: 0.2299107142857143
-                            '2':
-                              hex: '#897567'
-                              weight: 0.1598214285714286
-                            '3':
-                              hex: '#443327'
-                              weight: 0.1549107142857143
-                            '4':
-                              hex: '#6f4120'
-                              weight: 0.1049107142857143
-                            '5':
-                              hex: '#b6855d'
-                              weight: 0.09464285714285714
-                          selectedSize: original
-                          originalWidth: 5632
-                          attributionUrl: >-
-                            https://www.lummi.ai/photo/barista-serving-coffee-wmzmy?utm_source=api&utm_campaign=api&utm_medium=referral
-                          originalHeight: 3072
-                          authorProfileUrl: >-
-                            https://www.lummi.ai/creator/amino?utm_source=api&utm_campaign=api&utm_medium=referral
-                          dominantColorGroup: stone900
-                          dominantColorWeight: 0.2558035714285714
+                          color: '#262626'
+                          apiUrl: >-
+                            https://api.unsplash.com/photos/group-of-people-in-kitchen-cNSoS3nvcnU
+                          blurHash: LKF}=x8_~B#+~WD%%1xsXRX8IoXS
+                          sourceId: cNSoS3nvcnU
+                          createdAt: '2017-07-24T12:14:21Z'
+                          detailUrl: >-
+                            https://unsplash.com/photos/group-of-people-in-kitchen-cNSoS3nvcnU
+                          updatedAt: '2025-10-24T06:38:00Z'
+                          authorName: Daniel Norris
+                          downloadUrl: >-
+                            https://unsplash.com/photos/cNSoS3nvcnU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8YmFyaXN0YXxlbnwwfHx8fDE3NjEyOTEyMTd8MA
+                          photoRawUrl: >-
+                            https://images.unsplash.com/photo-1500898335608-a4b6696f81a5?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8YmFyaXN0YXxlbnwwfHx8fDE3NjEyOTEyMTd8MA&ixlib=rb-4.1.0
+                          photoFullUrl: >-
+                            https://images.unsplash.com/photo-1500898335608-a4b6696f81a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8YmFyaXN0YXxlbnwwfHx8fDE3NjEyOTEyMTd8MA&ixlib=rb-4.1.0&q=85
+                          photoSmallUrl: >-
+                            https://images.unsplash.com/photo-1500898335608-a4b6696f81a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8YmFyaXN0YXxlbnwwfHx8fDE3NjEyOTEyMTd8MA&ixlib=rb-4.1.0&q=80&w=400
+                          photoThumbUrl: >-
+                            https://images.unsplash.com/photo-1500898335608-a4b6696f81a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8YmFyaXN0YXxlbnwwfHx8fDE3NjEyOTEyMTd8MA&ixlib=rb-4.1.0&q=80&w=200
+                          authorUsername: danielnorris
+                          photoRegularUrl: >-
+                            https://images.unsplash.com/photo-1500898335608-a4b6696f81a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8YmFyaXN0YXxlbnwwfHx8fDE3NjEyOTEyMTd8MA&ixlib=rb-4.1.0&q=80&w=1080
+                          authorProfileUrl: https://unsplash.com/@danielnorris
+                          downloadLocation: >-
+                            https://api.unsplash.com/photos/cNSoS3nvcnU/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwxMnx8YmFyaXN0YXxlbnwwfHx8fDE3NjEyOTEyMTd8MA
+                          authorProfileImage: >-
+                            https://images.unsplash.com/profile-1560909311838-ad778987b430?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
                       height:
                         type: number
-                        value: 3072
+                        value: 3050
                       focalPoint:
                         type: focalPoint
                         value:
-                          x: 0.59
-                          'y': 0.65
+                          x: 0.2
+                          'y': 0.76
                       description:
                         type: text
-                        value: >-
-                          Barista Serving Coffee - AI-generated image by Amino
-                          on Lummi
-                    _source: lummi-9bed3bbc-6464-4e11-807b-0d72dbfa4f4e
+                        value: Photo by Daniel Norris on Unsplash
+                    _source: unisplash-7525b8ea-cd19-402d-9044-3d025999dbc1
           - _id: f30782f2-6c5d-4931-af78-027240693ade
             type: cardGrid
             _pattern: ee1e7388-9062-4b26-b565-92add9b87d1a
@@ -243,11 +165,33 @@ composition:
                 variables:
                   locale: ${locale}
                   search: ''
-                  filters: '{"type[eq]":"article","fields.title[match]":"espresso"}'
+                  filters: >-
+                    {"type[eq]":"article","fields.tags[in]":"Coffee
+                    Makers,Espresso"}
                   uiFilters: >-
-                    [{"field":"type","operator":"eq","value":"article"},{"field":"fields.title","operator":"match","value":"espresso"}]
+                    [{"field":"type","operator":"eq","value":"article"},{"field":"fields.tags","operator":"in","value":["Coffee
+                    Makers","Espresso"]}]
                   contentTypes: article
             _overridability:
+              hideLockedParameters: true
+          - _id: d263f36c-79de-4659-b4ed-1db7873d3b92
+            type: carousel
+            _pattern: 5a2f19b8-aef4-4405-8b07-13f62304c3b0
+            _overridability:
+              parameters:
+                $viz: 'yes'
+              hideLockedParameters: true
+          - _id: 99045656-fa1b-4553-a98b-9a76be0b7322
+            type: cardGrid
+            _pattern: 835a43ae-f777-4c8f-9201-74ca464163e3
+            _dataResources:
+              Multiple Coffee makers Content:
+                type: multipleCoffeeMakers
+                variables:
+                  ids: '[7759,7760,7761]'
+            _overridability:
+              parameters:
+                title: 'yes'
               hideLockedParameters: true
           - _id: 249c87ab-9ae1-4b77-8671-02b968b38aa8
             type: image
@@ -315,29 +259,6 @@ composition:
                     A barista skillfully pours milk to create beautiful latte
                     art in a cozy Central Java coffee shop. Photo by azzam zicc
                     on Pexels.
-          - _id: 99045656-fa1b-4553-a98b-9a76be0b7322
-            type: cardGrid
-            _pattern: 835a43ae-f777-4c8f-9201-74ca464163e3
-            _dataResources:
-              Multiple Coffee makers Content:
-                type: multipleCoffeeMakers
-                variables:
-                  ids: '[7759,7760,7761]'
-            _overridability:
-              parameters:
-                title: 'yes'
-              hideLockedParameters: true
-          - _id: fd4884f1-50ee-4853-b7c3-17b0cc92051a
-            type: contentHero
-            _pattern: b9c1085e-275c-4e54-8c6f-34fdacd726d6
-            _overridability:
-              parameters:
-                $viz: 'yes'
-                image: 'yes'
-                title: 'yes'
-                description: 'yes'
-                imagePosition: 'yes'
-              hideLockedParameters: true
           - _id: cd31abee-21b4-460c-96be-1dd4c22a2883
             type: cardGrid
             slots:
@@ -378,7 +299,7 @@ composition:
               title:
                 type: text
                 value: Our Ship to Sip standards
-          - _id: 220cd382-adf4-474e-8904-dd1ecc84e199
+          - _id: 0966288e-8ca8-4aba-a373-fa29df737b85
             type: contentHero
             _pattern: 69b7a5da-5b77-4cd2-a6a2-f9568cd1a76b
             _dataResources:
@@ -394,21 +315,9 @@ composition:
                 description: 'yes'
                 imagePosition: 'yes'
               hideLockedParameters: true
-          - _id: ede311f9-b6b9-4724-8bfe-52abe4404087
-            type: text
-            parameters:
-              content:
-                type: text
-                value: >-
-                  🎯 Try it now! Click on this text or any other text on the
-                  page to edit it directly. This sandbox demonstrates how
-                  Uniform empowers content teams to manage websites
-                  independently, while developers focus on building great
-                  components. Questions? Ask your Uniform representative about
-                  setting up your own project.
   _locales:
     - en-US
   _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
 created: '2025-09-18T12:09:47.99461+00:00'
-modified: '2025-10-21T17:51:33.474879+00:00'
+modified: '2025-10-24T08:04:41.797149+00:00'
 pattern: false

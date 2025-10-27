@@ -1,0 +1,106 @@
+composition:
+  _name: Products
+  _id: 13268651-8b59-40d1-b77c-079bd2a7b726
+  _slug: products
+  type: page
+  _overrides:
+    2fb31c59-6609-4888-bd2c-4348f1600b89:
+      dataResources:
+        Multiple Coffee makers Content:
+          type: multipleCoffeeMakers
+          variables:
+            ids: '[7759,7760,7761,7768,7767,7766,7765,7764,7763,7762]'
+    13268651-8b59-40d1-b77c-079bd2a7b726|bea24f96-81cb-4cd0-ba68-f82bcf404627:
+      slots:
+        $slotSectionItems:
+          - _id: 2373a4b9-53b9-4c33-9902-fd5cdb962f39
+            type: imageHero
+            parameters:
+              title:
+                type: text
+                value: Products
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Our collection features only the finest premium
+                              coffee makers, carefully selected for their
+                              exceptional quality, innovative features, and
+                              outstanding performance. Each product is chosen
+                              based on rigorous standards, ensuring that you
+                              enjoy a superior brewing experience whether at
+                              home, in the office, or in a commercial setting.
+                              We partner with trusted brands known for their
+                              craftsmanship and reliability, so you can brew
+                              with confidence and savor every cup.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                        textStyle: ''
+                        textFormat: 0
+                    direction: null
+              backgroundImage:
+                type: asset
+                value:
+                  - _id: 23245a6e-74a2-4735-a838-58a06ed4a4b8
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 48e3ccbb-fcda-4707-8994-6a57241dd3fb
+                      url:
+                        value: >-
+                          https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/O_DwNwawTMeOMLto-peZ6g-Image-One.png
+                        type: text
+                      file:
+                        type: file
+                        value: ebd5886b-b456-48bf-8afa-98f34bcfab86
+                      size:
+                        value: 2649939
+                        type: number
+                      title:
+                        type: text
+                        value: Image-One.png
+                      width:
+                        value: 1536
+                        type: number
+                      height:
+                        value: 1024
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                    _source: uniform-assets
+          - _id: 2fb31c59-6609-4888-bd2c-4348f1600b89
+            type: cardGrid
+            _pattern: 835a43ae-f777-4c8f-9201-74ca464163e3
+            _dataResources:
+              Multiple Coffee makers Content:
+                type: multipleCoffeeMakers
+                variables:
+                  ids: '[7759,7760,7761,7768,7767,7766,7765,7764,7763,7762]'
+            _overridability:
+              parameters:
+                title: 'yes'
+              hideLockedParameters: true
+  _locales:
+    - en-US
+  _pattern: 9a0d09c6-6e05-4424-875c-fef893bc73b7
+created: '2025-10-24T07:07:09.907147+00:00'
+modified: '2025-10-24T07:10:47.713992+00:00'
+pattern: false

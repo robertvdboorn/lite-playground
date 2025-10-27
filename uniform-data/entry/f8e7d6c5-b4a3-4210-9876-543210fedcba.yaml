@@ -1,5 +1,5 @@
 created: '2025-10-19T17:44:54.881207+00:00'
-modified: '2025-10-19T17:46:44.037294+00:00'
+modified: '2025-10-24T07:37:38.550366+00:00'
 pattern: false
 entry:
   _id: f8e7d6c5-b4a3-4210-9876-543210fedcba
@@ -20,6 +20,9 @@ entry:
         en-US: >-
           Cozy Christmas Espresso Creations: Festive Drinks to Warm Your Holiday
           Season
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-f8e7d6c5-b4a3-4210-9876-543210fedcba-author/entries/0}
     content:
       type: richText
       locales:
@@ -1007,6 +1010,12 @@ entry:
         en-US: >-
           Discover festive espresso drinks for Christmas! Enjoy rich coffee,
           peppermint, gingerbread, and holiday cheer in every delicious sip.
+  _dataResources:
+    ref-f8e7d6c5-b4a3-4210-9876-543210fedcba-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 168c2f5a-cddb-411b-864c-47ea0de22c55
   _locales:
     - en-US
   _overridability:

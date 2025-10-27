@@ -2,7 +2,8 @@ id: 879abfca-1cb2-48d4-a3de-3dd73f96fea2
 name: Products
 order: 650
 path: /:locale/products
-type: placeholder
+type: composition
 pathSegment: products
 data: {}
+compositionId: 13268651-8b59-40d1-b77c-079bd2a7b726
 projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a

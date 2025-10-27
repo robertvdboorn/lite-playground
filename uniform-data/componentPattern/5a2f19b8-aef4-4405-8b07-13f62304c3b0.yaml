@@ -4,52 +4,352 @@ composition:
   type: carousel
   slots:
     slides:
-      - _id: b9851fa6-01a9-487c-82a2-846e550d3899
-        type: carouselSlide
-        slots:
-          content:
-            - _id: bfd81a68-e52d-4cbb-851a-9591c951565a
-              type: imageHero
-              parameters:
-                title:
-                  type: text
-                  locales:
-                    en-US: Premium Quality Products
-              _overridability:
-                parameters:
-                  title: 'yes'
-      - _id: 41ffd5d3-9883-42ef-a523-a603a308aabb
-        type: carouselSlide
-        slots:
-          content:
-            - _id: 01e9ebb6-4d9d-447e-be1f-49fcd98e499a
-              type: imageHero
-              parameters:
-                title:
-                  type: text
-                  locales:
-                    en-US: Exceptional Customer Service
-              _overridability:
-                parameters:
-                  title: 'yes'
       - _id: 361dc2dc-4c77-4a76-9c3b-36ae56231523
         type: carouselSlide
         slots:
           content:
             - _id: 5d3810d1-4fe2-4ddf-9ae3-34dedc7d3534
               type: imageHero
+              slots:
+                cta:
+                  - _id: b9abe86b-5c3f-4179-ab39-cafeb00f7b1e
+                    type: cta
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /${locale}
+                          type: projectMapNode
+                          nodeId: 6fd43f82-6a0e-42f3-bd05-566c6415ed9c
+                          projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+                          dynamicInputValues:
+                            locale: ${locale}
+                      text:
+                        type: text
+                        locales:
+                          en-US: Enroll
+                    _overridability:
+                      hideLockedParameters: true
               parameters:
                 title:
                   type: text
                   locales:
-                    en-US: Fast & Free Shipping
+                    en-US: Our Barista Classes
+                description:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Take your coffee skills to the next
+                                  level—enroll in our barista class today and
+                                  start crafting café-quality drinks at home!
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                backgroundImage:
+                  type: asset
+                  value:
+                    - _id: 8f1c4852-cfd5-49e7-921d-df38f39e47d1
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                        title:
+                          type: text
+                          value: >-
+                            A barista holds a coffee cup with beautiful latte
+                            art in a cozy café setting.
+                        width:
+                          type: number
+                          value: 4896
+                        custom:
+                          type: object
+                          value:
+                            sourceId: '373639'
+                            pexelsUrl: >-
+                              https://www.pexels.com/photo/woman-holding-mug-of-cappuccino-373639/
+                            photoTinyUrl: >-
+                              https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280
+                            photographer: Porapak Apichodilok
+                            photoLargeUrl: >-
+                              https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+                            photoSmallUrl: >-
+                              https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&h=130
+                            photoMediumUrl: >-
+                              https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&h=350
+                            photoLarge2xUrl: >-
+                              https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+                            photographerUrl: https://www.pexels.com/@nurseryart
+                            photoPortraitUrl: >-
+                              https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800
+                            pexelsOriginalUrl: >-
+                              https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg
+                            photoLandscapeUrl: >-
+                              https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200
+                        height:
+                          type: number
+                          value: 3264
+                        focalPoint:
+                          type: focalPoint
+                          value:
+                            x: 0.67
+                            'y': 0.47
+                        description:
+                          type: text
+                          value: >-
+                            A barista holds a coffee cup with beautiful latte
+                            art in a cozy café setting. - Photo by Porapak
+                            Apichodilok on Pexels
+                      _source: pexels-442ee51c-03eb-4185-94c5-0585aba031f1
+              _overridability:
+                parameters:
+                  title: 'yes'
+      - _id: b9851fa6-01a9-487c-82a2-846e550d3899
+        type: carouselSlide
+        slots:
+          content:
+            - _id: bfd81a68-e52d-4cbb-851a-9591c951565a
+              type: imageHero
+              slots:
+                cta:
+                  - _id: 740cd2e0-0d13-4f6d-aa4e-07923347fe89
+                    type: cta
+                    parameters:
+                      text:
+                        type: text
+                        locales:
+                          en-US: Learn more
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: New! Explore BeanXL
+                description:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Discover the Bean XL, our latest espresso
+                                  maker designed to deliver barista-quality
+                                  coffee at home with ease and style.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                backgroundImage:
+                  type: asset
+                  value:
+                    - _id: 38663b0f-57b8-4dde-888a-a755f936ecd9
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 3361bf9e-dfd5-4a4e-836c-9344605e8df4
+                        url:
+                          value: >-
+                            https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/GeHV_qTwTUSBHIWZd4tcLA-Espresso-1.png
+                          type: text
+                        file:
+                          type: file
+                          value: fdfed36d-3091-472c-a9da-5f56dde2aa18
+                        size:
+                          value: 1230471
+                          type: number
+                        title:
+                          type: text
+                          value: Sleek Espresso Machine on Marble Counter
+                        width:
+                          value: 1456
+                          type: number
+                        height:
+                          value: 816
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                        description:
+                          type: text
+                          value: >-
+                            High-quality lifestyle shot of a sleek espresso
+                            machine on a marble counter with a perfect shot
+                            pulling into a glass cup.
+                      _source: uniform-assets
+              _overridability:
+                parameters:
+                  $viz: 'yes'
+                  title: 'yes'
+                  description: 'yes'
+                  backgroundImage: 'yes'
+      - _id: 41ffd5d3-9883-42ef-a523-a603a308aabb
+        type: carouselSlide
+        slots:
+          content:
+            - _id: 01e9ebb6-4d9d-447e-be1f-49fcd98e499a
+              type: imageHero
+              slots:
+                cta:
+                  - _id: 3648565a-0bd8-4aef-9c81-ce7c591794b0
+                    type: cta
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /${locale}/articles
+                          type: projectMapNode
+                          nodeId: dfee8dab-fa34-42cc-bd1d-0363ea233c44
+                          projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
+                          dynamicInputValues:
+                            locale: ${locale}
+                      text:
+                        type: text
+                        locales:
+                          en-US: Read Article
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Which Beans are the right fit?
+                description:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: >-
+                                  Not sure which espresso beans are right for
+                                  you? Discover expert tips to find your perfect
+                                  match in our latest article.
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                        direction: null
+                backgroundImage:
+                  type: asset
+                  value:
+                    - _id: 78bcd806-b991-4c98-8da7-6904fd13ae4c
+                      type: image
+                      fields:
+                        url:
+                          type: text
+                          value: >-
+                            https://images.unsplash.com/photo-1518831258426-b400d25ca47d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzMnx8ZXNwcmVzc28lMjBiZWFuc3xlbnwwfHx8fDE3NjEyOTA5ODd8MA&ixlib=rb-4.1.0&q=85
+                        title:
+                          type: text
+                          value: >-
+                            A friend was looking for heart images for
+                            Valentine’s day… so I made a heart out of coffee
+                            beans - and place a small cup of coffee right in the
+                            middle of the beans. Lots of natural light comes in
+                            through our big windows in the kitchen - I love how
+                            the light hits the beans in this shot!
+                        width:
+                          type: number
+                          value: 4608
+                        custom:
+                          type: object
+                          value:
+                            color: '#c0c0c0'
+                            apiUrl: >-
+                              https://api.unsplash.com/photos/cup-of-coffee-on-coffee-beans--54rPId-b9k
+                            blurHash: LOKBH|00Iot8M{xuRjRjtS%NRPf6
+                            sourceId: '-54rPId-b9k'
+                            createdAt: '2018-02-17T01:36:57Z'
+                            detailUrl: >-
+                              https://unsplash.com/photos/cup-of-coffee-on-coffee-beans--54rPId-b9k
+                            updatedAt: '2025-10-24T03:34:22Z'
+                            authorName: Jessica Lewis 🦋 thepaintedsquare
+                            downloadUrl: >-
+                              https://unsplash.com/photos/-54rPId-b9k/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzMnx8ZXNwcmVzc28lMjBiZWFuc3xlbnwwfHx8fDE3NjEyOTA5ODd8MA
+                            photoRawUrl: >-
+                              https://images.unsplash.com/photo-1518831258426-b400d25ca47d?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzMnx8ZXNwcmVzc28lMjBiZWFuc3xlbnwwfHx8fDE3NjEyOTA5ODd8MA&ixlib=rb-4.1.0
+                            photoFullUrl: >-
+                              https://images.unsplash.com/photo-1518831258426-b400d25ca47d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzMnx8ZXNwcmVzc28lMjBiZWFuc3xlbnwwfHx8fDE3NjEyOTA5ODd8MA&ixlib=rb-4.1.0&q=85
+                            photoSmallUrl: >-
+                              https://images.unsplash.com/photo-1518831258426-b400d25ca47d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzMnx8ZXNwcmVzc28lMjBiZWFuc3xlbnwwfHx8fDE3NjEyOTA5ODd8MA&ixlib=rb-4.1.0&q=80&w=400
+                            photoThumbUrl: >-
+                              https://images.unsplash.com/photo-1518831258426-b400d25ca47d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzMnx8ZXNwcmVzc28lMjBiZWFuc3xlbnwwfHx8fDE3NjEyOTA5ODd8MA&ixlib=rb-4.1.0&q=80&w=200
+                            authorUsername: thepaintedsquarejessica
+                            photoRegularUrl: >-
+                              https://images.unsplash.com/photo-1518831258426-b400d25ca47d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzMnx8ZXNwcmVzc28lMjBiZWFuc3xlbnwwfHx8fDE3NjEyOTA5ODd8MA&ixlib=rb-4.1.0&q=80&w=1080
+                            authorProfileUrl: https://unsplash.com/@thepaintedsquarejessica
+                            downloadLocation: >-
+                              https://api.unsplash.com/photos/-54rPId-b9k/download?ixid=M3wzNzE5MzN8MHwxfHNlYXJjaHwzMnx8ZXNwcmVzc28lMjBiZWFuc3xlbnwwfHx8fDE3NjEyOTA5ODd8MA
+                            authorProfileImage: >-
+                              https://images.unsplash.com/profile-1703281976785-7c9bd4551aabimage?ixlib=rb-4.1.0&crop=faces&fit=crop&w=32&h=32
+                        height:
+                          type: number
+                          value: 3072
+                        description:
+                          type: text
+                          value: >-
+                            Photo by Jessica Lewis 🦋 thepaintedsquare on
+                            Unsplash
+                      _source: unisplash-7525b8ea-cd19-402d-9044-3d025999dbc1
               _overridability:
                 parameters:
                   title: 'yes'
   _overridability:
+    parameters:
+      $viz: 'yes'
     hideLockedParameters: true
   _locales:
     - en-US
 created: '2025-10-21T11:04:49.75613+00:00'
-modified: '2025-10-21T11:08:38.474438+00:00'
+modified: '2025-10-24T07:32:55.541479+00:00'
 pattern: true

@@ -24,15 +24,15 @@ composition:
                         type: link
                         value:
                           path: >-
-                            /${locale}/articles/${#jptr:/Uniform Articles Query
-                            Content entries Loop Item/entityId}
+                            /${locale}/products/${#jptr:/Uniform Articles Query
+                            Content entries Loop Item/values/productid}
                           type: projectMapNode
-                          nodeId: 39f084ef-83c6-4ed5-8203-cbe347a6dae7
+                          nodeId: 450d9b6d-cade-4a55-b00b-f172d17b9630
                           projectMapId: 3828ecc0-8088-4983-a764-ba4b1092ac0a
                           dynamicInputValues:
-                            slug: >-
+                            ID: >-
                               ${#jptr:/Uniform Articles Query Content entries
-                              Loop Item/entityId}
+                              Loop Item/values/productid}
                             locale: ${locale}
                       text:
                         type: text
@@ -56,6 +56,46 @@ composition:
                             ${#jptr:/Uniform Articles Query Content entries Loop
                             Item/values/productimage}
                       _source: custom-url
+                  conditions:
+                    - when:
+                        clauses:
+                          - op: empty
+                            rule: $dt
+                            value: ''
+                            source: >-
+                              ${#jptr:/Uniform Articles Query Content entries
+                              Loop Item/values/productimage}
+                      value:
+                        - _id: 70d22bd0-9e30-4866-84f4-89a0ba9c057d
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 9a497680-b4a0-4485-880a-a906e03a070f
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/PGOnFrN5TrSWgiDz2oJ5tQ-ImageMissing.png
+                              type: text
+                            file:
+                              type: file
+                              value: 6209014e-2552-40e5-9e72-ebbb25aa71d2
+                            size:
+                              value: 826637
+                              type: number
+                            title:
+                              type: text
+                              value: ImageMissing.png
+                            width:
+                              value: 1024
+                              type: number
+                            height:
+                              value: 1024
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                          _source: uniform-assets
+                      id: 0
                 title:
                   type: text
                   locales:
@@ -91,7 +131,7 @@ composition:
   _locales:
     - en-US
 created: '2025-10-18T08:43:18.451944+00:00'
-modified: '2025-10-18T08:46:50.935765+00:00'
+modified: '2025-10-24T07:20:59.025774+00:00'
 pattern: true
 previewImageUrl: https://i.imgur.com/ehkC4pB.png
-categoryId: 4c555eac-0c3e-40ac-b297-6bf564bed3ef
+categoryId: 7e55163b-4951-4ffb-aeaa-044f0d1841e0

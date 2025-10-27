@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 9a497680-b4a0-4485-880a-a906e03a070f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ImageMissing.png
+    file:
+      type: file
+      value: 6209014e-2552-40e5-9e72-ebbb25aa71d2
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/AlqH2VUVRTWMw5VD-O0NWg/PGOnFrN5TrSWgiDz2oJ5tQ-ImageMissing.png
+      type: text
+    size:
+      value: 826637
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-10-24T07:17:57.269302+00:00'
+modified: '2025-10-24T07:17:57.269302+00:00'

@@ -1,5 +1,5 @@
 created: '2025-10-19T19:03:15.566509+00:00'
-modified: '2025-10-19T19:09:16.132003+00:00'
+modified: '2025-10-24T07:37:58.405655+00:00'
 pattern: false
 entry:
   _id: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d
@@ -18,6 +18,9 @@ entry:
     title:
       type: text
       value: 'The Perfect Cortado: A Guide to Brewing Balance in a Cup'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d-author/entries/0}
     content:
       type: richText
       value:
@@ -1277,6 +1280,12 @@ entry:
         Master the art of making a cortado at home with our step-by-step guide.
         Learn the perfect espresso-to-milk ratio, steaming methods, and expert
         tips for this classic Spanish coffee drink.
+  _dataResources:
+    ref-a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: ed22a4e2-77e0-4b61-bad0-7610178c844a
   _locales:
     - en-US
   _overridability:
