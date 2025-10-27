@@ -5,7 +5,7 @@ import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 // Uniform imports for creating editable components
-import { UniformSlot, registerUniformComponent } from '@uniformdev/canvas-react';
+import { UniformSlot, registerUniformComponent, useUniformContextualEditingState } from '@uniformdev/canvas-react';
 
 export interface HeaderProps {
   className?: string;
@@ -18,19 +18,24 @@ export interface HeaderProps {
  * - Contains branded logo that links to homepage
  * - Contains UniformSlot for navigation links (editable in Uniform)
  * - Responsive: hamburger menu on mobile, horizontal nav on desktop
- * - Sticky header that stays at top when scrolling
+ * - Sticky header that stays at top when scrolling (except in Uniform preview mode)
  * 
  * Key Uniform Concepts:
  * - UniformSlot: Creates editable areas where content authors can add components
  * - registerUniformComponent: Makes this React component available in Uniform editor
+ * - Non-sticky in preview mode: Makes it easier to edit components below the header
  */
 export function Header({ className = '' }: HeaderProps) {
   // Mobile menu state management
   const { isOpen: isMobileMenuOpen, toggle: toggleMobileMenu } = useMobileMenu();
+  
+  // Detect Uniform preview mode - make header non-sticky in editor for better UX
+  const { previewMode } = useUniformContextualEditingState({ global: true });
+  const isInPreviewMode = previewMode === 'editor' || previewMode === 'preview';
 
   return (
     <>
-      <header className={`sticky top-0 z-50 w-full bg-white border-b border-gray-200 ${className}`}>
+      <header className={`${isInPreviewMode ? 'relative' : 'sticky top-0'} z-50 w-full bg-white border-b border-gray-200 ${className}`}>
         <div className="container mx-auto px-6">
           <div className="flex h-20 items-center justify-between lg:justify-start lg:gap-8">
             
